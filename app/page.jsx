@@ -8,6 +8,7 @@ import Header from '@/components/ui/header'
 import Image from 'next/image'
 
 
+
 export default function Home() {
   return (
     <main className="bg-white">
@@ -21,7 +22,7 @@ export default function Home() {
 
       <section className="px-3 md:px-9 flex flex-wrap">
         <div className="w-full md:block relative md:w-1/2 py-8">
-          <video src="/images/gotely.mp4" alt="gotely" controls width="90%" type='video/mp4'/>
+          <video alt="gotely" controls width="90%" type='video/mp4' ><source src={"/images/gotely.mp4"} /></video>
         </div>
         <div className="w-full md:w-1/2 my-auto">
           <h2>CUTTING-EDGE PLATFORM</h2>

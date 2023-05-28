@@ -1,5 +1,6 @@
 import React from 'react'
 
+import FeaturesBg from '@/public/images/pc1.png'
 import Image from 'next/image'
 
 
@@ -16,7 +17,7 @@ export default function Hero() {
 
                 <div className=" w-full" style={{ right: 0 }}>
 
-                    <img className="absolute  hidden md:block z-40 right-0 top-28" src="/images/pc1.png" alt="gotely" width={700} height={400} />
+                    <Image className="absolute  hidden md:block z-40 right-0 top-28" src={FeaturesBg} alt="gotely" width={700} height={400} />
 
                 </div>
 
