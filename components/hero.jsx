@@ -16,7 +16,7 @@ export default function Hero() {
 
                 <div className=" w-full" style={{ right: 0 }}>
 
-                    <Image className="absolute  hidden md:block z-40 right-0 top-28" src="/images/pc1.png" alt="gotely" width={700} height={400} />
+                    <img className="absolute  hidden md:block z-40 right-0 top-28" src="/images/pc1.png" alt="gotely" width={700} height={400} />
 
                 </div>
 
