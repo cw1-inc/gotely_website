@@ -6,6 +6,8 @@ import Newsletter from '@/components/newsletter'
 import Testimonials from '@/components/testimonials'
 import Header from '@/components/ui/header'
 import Image from 'next/image'
+import FeaturesBg from '@/public/zzz.png'
+
 
 
 
@@ -23,11 +25,9 @@ export default function Home() {
       <section className="px-3 md:px-9 flex flex-wrap">
 
         <div className="w-full md:block relative md:w-1/2 py-8">
-          <video alt="gotely" controls width="90%" height={"90%"}  >
-            <source src={"/images/gotely.mp4"} type='video/mp4'/>
-          </video>
+          <Image className="  hidden md:block z-40 right-0 top-28" src={FeaturesBg} alt="gotely" width={700} height={400} />
         </div>
-        <div className="w-full md:w-1/2 my-auto">
+        <div className="w-full md:w-1/2 my-auto py-32 md:py-auto">
           <h2>CUTTING-EDGE PLATFORM</h2>
           <h3 className="text-5xl pb-3">Your own strategy <br /> <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400"> advisor.</span></h3>
           <p>Merging AI-enhanced evaluation criteria with top strategy & finance expertise, ensuring exceptional, on-brand deliveries.</p>

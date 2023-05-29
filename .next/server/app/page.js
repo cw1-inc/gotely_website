@@ -319,7 +319,7 @@ __webpack_require__.r(__webpack_exports__);
         '',
         {
         children: ['__PAGE__', {}, {
-          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4545)), "/Users/pedrospecter/Downloads/work/gotely/website/app/page.jsx"],
+          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9807)), "/Users/pedrospecter/Downloads/work/gotely/website/app/page.jsx"],
           metadata: {
     icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4756))).default(props))],
     apple: [],
@@ -379,7 +379,7 @@ Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_
 
 /***/ }),
 
-/***/ 1121:
+/***/ 4577:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 7649, 23));
@@ -387,7 +387,8 @@ Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_re
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 7977, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6612));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6067));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9977))
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9977));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 1591))
 
 /***/ }),
 
@@ -1044,7 +1045,7 @@ function RootLayout({ children  }) {
 
 /***/ }),
 
-/***/ 4545:
+/***/ 9807:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -2127,7 +2128,10 @@ const header_default_ = header_proxy.default;
 
 
 /* harmony default export */ const header = (header_default_);
+;// CONCATENATED MODULE: ./public/zzz.png
+/* harmony default export */ const zzz = ({"src":"/_next/static/media/zzz.4f580766.png","height":800,"width":1200,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAYAAAB4ka1VAAAAnElEQVR42mMIDArlZWBgULW0dnKqrqkLYACCzVu2sFy6dInl6tWrjAylZeXGJ0+e/PbgwYP/T58++//6zZsABnTw9OnTlT9+/Pj/9u3b/7t27XrQ0tKSev/+/QSgCeIMILBlyxajAwcOPJ46deq3devW/T927Nj/4ydOtJ45c4aHAaiSBWoQ+86dOzVfvXrlv2f3HlUGIPj//z8jAMf5UQqPhXupAAAAAElFTkSuQmCC","blurWidth":8,"blurHeight":5});
 ;// CONCATENATED MODULE: ./app/page.jsx
+
 
 
 
@@ -2151,19 +2155,16 @@ function Home() {
                 children: [
                     /*#__PURE__*/ jsx_runtime_.jsx("div", {
                         className: "w-full md:block relative md:w-1/2 py-8",
-                        children: /*#__PURE__*/ jsx_runtime_.jsx("video", {
+                        children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                            className: "  hidden md:block z-40 right-0 top-28",
+                            src: zzz,
                             alt: "gotely",
-                            controls: true,
-                            width: "90%",
-                            height: "90%",
-                            children: /*#__PURE__*/ jsx_runtime_.jsx("source", {
-                                src: "/images/gotely.mp4",
-                                type: "video/mp4"
-                            })
+                            width: 700,
+                            height: 400
                         })
                     }),
                     /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                        className: "w-full md:w-1/2 my-auto",
+                        className: "w-full md:w-1/2 my-auto py-32 md:py-auto",
                         children: [
                             /*#__PURE__*/ jsx_runtime_.jsx("h2", {
                                 children: "CUTTING-EDGE PLATFORM"
@@ -2229,6 +2230,18 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"src":"/_next/static/media/pc1.084d0e76.png","height":797,"width":1000,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAGCAYAAAD+Bd/7AAAApElEQVR42k3KvQrCMBSG4S8xCbQoKA7d3Rz8WUUUuombeCNCL8CLqpfjUHRyaiu1lsQkJq2DLxw+ODwErvVmu7hmt/Pjnr0AUPzF4BoIMTnudwdlDKSUIKQ1bn9gOZ+pU5JgHEWyqqpeEASw1oJS2oFVHNP+cATqCsPQD3zOdIAzpgRn0FqzvHiCc+aOo2maFohLmk7LssgBUtf12/+IEBxKfcwXALQ0Ez/gxDgAAAAASUVORK5CYII=","blurWidth":8,"blurHeight":6});
+
+/***/ }),
+
+/***/ 1591:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"src":"/_next/static/media/zzz.4f580766.png","height":800,"width":1200,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAYAAAB4ka1VAAAAnElEQVR42mMIDArlZWBgULW0dnKqrqkLYACCzVu2sFy6dInl6tWrjAylZeXGJ0+e/PbgwYP/T58++//6zZsABnTw9OnTlT9+/Pj/9u3b/7t27XrQ0tKSev/+/QSgCeIMILBlyxajAwcOPJ46deq3devW/T927Nj/4ydOtJ45c4aHAaiSBWoQ+86dOzVfvXrlv2f3HlUGIPj//z8jAMf5UQqPhXupAAAAAElFTkSuQmCC","blurWidth":8,"blurHeight":5});
 
 /***/ }),
 
