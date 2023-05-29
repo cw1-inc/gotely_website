@@ -379,19 +379,19 @@ Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_
 
 /***/ }),
 
-/***/ 5897:
+/***/ 1121:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 7649, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 1936));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9977));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 7977, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6612));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6067));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6612))
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9977))
 
 /***/ }),
 
-/***/ 8635:
+/***/ 6675:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 3481, 23));
@@ -2155,9 +2155,10 @@ function Home() {
                             alt: "gotely",
                             controls: true,
                             width: "90%",
-                            type: "video/mp4",
+                            height: "90%",
                             children: /*#__PURE__*/ jsx_runtime_.jsx("source", {
-                                src: "./images/gotely.mp4"
+                                src: "/images/gotely.mp4",
+                                type: "video/mp4"
                             })
                         })
                     }),
