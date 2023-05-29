@@ -1,6 +1,7 @@
 import Script from 'next/script'
 import './globals.scss'
 import { Inter } from 'next/font/google'
+import Image from './marketing.jpg'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -9,7 +10,7 @@ export const metadata = {
   description: 'Unlock smart AI-driven business strategies with our app. Boost growth, optimize resources & unlock potential. Take your business to the next level, today!',
 
   icons: {
-    icon: '/favicon.ico',
+    icon: './favicon.ico',
   },
 }
 
@@ -32,16 +33,17 @@ export default function RootLayout({ children }) {
         <meta name="keywords" content={"Strategy, AI,AI generated, business strategy, corporate strategy, business analysis, business idea validator"} />
         <meta name="author" content={"CW1"} />
         <meta property="og:description" content={"Unlock smart AI-driven business strategies with our app. Boost growth, optimize resources & unlock potential. Take your business to the next level, today!"} />
-        <meta property="og:image" content="/images/marketing.jpg" />
+        <meta property="og:image" content={Image} />
         <meta property="og:url" content={"https://wwww.gotely.com"} />
         {/* <meta property="og:image:type" content="/imagines/marketing.jpg" />
         <meta property="og:image:width" content="/imagines/marketing.jpg" />
         <meta property="og:image:height" content="/imagines/marketing.jpg" /> */}
         <meta property="og:image:alt" content="About Acme" />
         <meta name="twitter:title" content={"Gotely | Strategy generation by AI and CW1 experts."} />
+        <meta name="twitter:site" content="https://www.gotely.com" />
         <meta name="twitter:description" content={"Unlock smart AI-driven business strategies with our app. Boost growth, optimize resources & unlock potential. Take your business to the next level, today!"} />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:image" content="/images/marketing.jpg" />
+        <meta name="twitter:image" content={Image} />
         {/* <meta name="twitter:image:type" content="/imagines/marketing.jpg" />
         <meta name="twitter:image:width" content="/imagines/marketing.jpg" />
         <meta name="twitter:image:height" content="/imagines/marketing.jpg" /> */}
