@@ -30,7 +30,7 @@ export default function Home() {
         <div className="w-full md:w-1/2 my-auto py-32 md:py-auto">
           <h2>CUTTING-EDGE PLATFORM</h2>
           <h3 className="text-5xl pb-3">Your own strategy <br /> <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400"> advisor.</span></h3>
-          <p>Merging AI-enhanced evaluation criteria with top strategy & finance expertise, ensuring exceptional, on-brand deliveries.</p>
+          {/* <p>Our AI model has been trained with data of 40 different market branches, 200 different companies and the hability of "thinking out of the box".</p> */}
         </div>
 
       </section>
@@ -38,6 +38,23 @@ export default function Home() {
       <Testimonials />
 
       <Newsletter />
+
+      <hr />
+      <div className="flex justify-between items-center px-3 md:px-9">
+        <div className="flex justify-between relative items-center">
+
+          <svg width="80" height="40" viewBox="0 0 300 100" version="1.1" style={{
+            fillRule: "evenodd", clipRule: "evenodd", strokeLinejoin: "round", strokeMiterlimit: 2,
+          }}>
+            <g fill={"black"} transform="matrix(1,0,0,1,20.0316,-1.12926)">
+              < text x="11.941px" y="68.911px" style={{ fontFamily: "'AvenirNext-Bold', 'Avenir Next', sans-serif", fontWeight: 700, fontSize: "68.921px" }}>G<tspan x="67.009px 112.635px 140.341px 183.486px 206.092px " y="68.911px 68.911px 68.911px 68.911px 68.911px">otely</tspan></text>
+            </g>
+          </svg >
+          <span>|</span>
+          <p className="py-4 text-xs font-light ps-3">CW1, Inc 2023 © All rights reserved</p>
+        </div>
+        <a className="text-xs font-light" href="https://www.cw1.com/legal/data-privacy">Privacy policy</a>
+      </div>
 
     </main>
   )

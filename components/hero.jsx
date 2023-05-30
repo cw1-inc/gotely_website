@@ -49,7 +49,7 @@ export default function Hero() {
                 </div>
 
                 {/* Illustration behind hero content */}
-                <div className="relative w-full h-full gotely" aria-hidden="true">
+                {/* <div className="relative w-full h-full gotely" aria-hidden="true">
                     <div className="background ">
                         <span></span>
                         <span></span>
@@ -72,7 +72,7 @@ export default function Hero() {
                         <span></span>
                         <span></span>
                     </div>
-                </div>
+                </div> */}
 
 
 

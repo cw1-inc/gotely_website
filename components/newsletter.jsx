@@ -60,22 +60,7 @@ export default function Newsletter() {
           </div>
 
         </div>
-        <hr />
-        <div className="flex justify-between items-center">
-          <div className="flex justify-between relative items-center">
-            
-            <svg width="80" height="40" viewBox="0 0 300 100" version="1.1" style={{
-              fillRule: "evenodd", clipRule: "evenodd", strokeLinejoin: "round", strokeMiterlimit: 2,
-            }}>
-              <g fill={"black"} transform="matrix(1,0,0,1,20.0316,-1.12926)">
-                < text x="11.941px" y="68.911px" style={{ fontFamily: "'AvenirNext-Bold', 'Avenir Next', sans-serif", fontWeight: 700, fontSize: "68.921px" }}>G<tspan x="67.009px 112.635px 140.341px 183.486px 206.092px " y="68.911px 68.911px 68.911px 68.911px 68.911px">otely</tspan></text>
-              </g>
-            </svg >
-            <span>|</span>
-            <p className="py-4 text-xs font-light">CW1, Inc 2023 © All rights reserved</p>
-          </div>
-          <a className="text-xs font-light" href="https://www.cw1.com/legal/data-privacy">Privacy policy</a>
-        </div>
+       
       </div>
     </section>
   )

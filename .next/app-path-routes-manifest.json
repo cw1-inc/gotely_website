@@ -1,5 +1,5 @@
 {
-  "/favicon.ico/route": "/favicon.ico",
+  "/robots.txt/route": "/robots.txt",
   "/page": "/",
-  "/robots.txt/route": "/robots.txt"
+  "/favicon.ico/route": "/favicon.ico"
 }

@@ -379,16 +379,16 @@ Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_
 
 /***/ }),
 
-/***/ 4577:
+/***/ 2649:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 7649, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 1936));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 7977, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 1591));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6612));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6067));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9977));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 1591))
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 1936));
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 7977, 23))
 
 /***/ }),
 
@@ -448,7 +448,7 @@ function Features() {
         heightFix();
     }, []);
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("section", {
-        className: "relative h-[200vh] md:h-[80vh] md:pb-0",
+        className: "relative h-[240vh] md:h-[100vh] md:pb-0",
         children: [
             /*#__PURE__*/ jsx_runtime_.jsx("div", {
                 className: "absolute inset-0  bg-gray-100 pointer-events-none mb-16",
@@ -463,10 +463,10 @@ function Features() {
                     className: "pt-12 md:pt-20",
                     children: [
                         /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                            className: "max-w-3xl mx-auto text-center pb-12 md:pb-4",
+                            className: "max-w-3xl mx-auto text-center pb-12 md:pb-20",
                             children: [
                                 /*#__PURE__*/ (0,jsx_runtime_.jsxs)("h1", {
-                                    className: "text-2xl mb-4",
+                                    className: "text-4xl mb-4",
                                     children: [
                                         "More insights, more strategy, ",
                                         /*#__PURE__*/ jsx_runtime_.jsx("span", {
@@ -482,10 +482,10 @@ function Features() {
                             ]
                         }),
                         /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                            className: "md:grid md:grid-cols-12 md:gap-6",
+                            className: "flex flex-col md:flex-row",
                             children: [
                                 /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                    className: "max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6 md:mt-6",
+                                    className: "max-w-xl order-2 md:order-1 md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6 md:mt-6",
                                     "data-aos": "fade-right",
                                     children: [
                                         /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
@@ -611,7 +611,7 @@ function Features() {
                                     ]
                                 }),
                                 /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                    className: "hidden md:block max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1",
+                                    className: "order-1 md:order-2 md:block max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1",
                                     "data-aos": "zoom-y-out",
                                     ref: tabs,
                                     children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
@@ -1422,44 +1422,10 @@ var react_shared_subset = __webpack_require__(7887);
 
 function Grizzly() {
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("section", {
-        className: "bg-white w-full px-3 md:px-9 pb-16 flex flex-wrap pt-12",
+        className: "bg-white w-full px-3 md:px-9  flex flex-wrap md:pb-24 md:pt-16",
         children: [
             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                className: "w-full md:w-1/4",
-                children: [
-                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("svg", {
-                        width: "40",
-                        height: "49",
-                        viewBox: "0 0 52 49",
-                        fill: "none",
-                        xmlns: "http://www.w3.org/2000/svg",
-                        children: [
-                            /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                                d: "M45.174 31L35.7827 13H50.0001C51.1047 13 52.0001 13.8954 52.0001 15V29C52.0001 30.1046 51.1047 31 50.0001 31H45.174Z",
-                                fill: "#999999"
-                            }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                                d: "M15.8975 21.2796L26.9999 0L50.9999 46H24.1804C26.5556 43.3462 27.9998 39.8418 27.9998 36C27.9998 28.707 22.7951 22.6296 15.8975 21.2796Z",
-                                fill: "#E6E6E6"
-                            }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                                d: "M26 36C26 43.1797 20.1797 49 13 49C5.8203 49 0 43.1797 0 36C0 28.8203 5.8203 23 13 23C20.1797 23 26 28.8203 26 36Z",
-                                fill: "#C4C4C4"
-                            })
-                        ]
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("h2", {
-                        className: "text-lg font-medium pt-3",
-                        children: "Elite Expertise"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                        className: "text-zinc-600 font-light",
-                        children: "Access an exclusive offer of ex-fortune 500 expertise."
-                    })
-                ]
-            }),
-            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                className: "w-full md:w-1/4",
+                className: "w-full md:w-1/4 pt-8 md:pt-0",
                 children: [
                     /*#__PURE__*/ (0,jsx_runtime_.jsxs)("svg", {
                         width: "40",
@@ -1493,7 +1459,45 @@ function Grizzly() {
                 ]
             }),
             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                className: "w-full md:w-1/4",
+                className: "w-full md:w-1/4 ",
+                children: [
+                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("svg", {
+                        width: "40",
+                        height: "49",
+                        viewBox: "0 0 52 49",
+                        fill: "none",
+                        xmlns: "http://www.w3.org/2000/svg",
+                        children: [
+                            /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                                d: "M45.174 31L35.7827 13H50.0001C51.1047 13 52.0001 13.8954 52.0001 15V29C52.0001 30.1046 51.1047 31 50.0001 31H45.174Z",
+                                fill: "#999999"
+                            }),
+                            /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                                d: "M15.8975 21.2796L26.9999 0L50.9999 46H24.1804C26.5556 43.3462 27.9998 39.8418 27.9998 36C27.9998 28.707 22.7951 22.6296 15.8975 21.2796Z",
+                                fill: "#E6E6E6"
+                            }),
+                            /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                                d: "M26 36C26 43.1797 20.1797 49 13 49C5.8203 49 0 43.1797 0 36C0 28.8203 5.8203 23 13 23C20.1797 23 26 28.8203 26 36Z",
+                                fill: "#C4C4C4"
+                            })
+                        ]
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx("h2", {
+                        className: "text-lg font-medium pt-3",
+                        children: "Elite Expertise"
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
+                        className: "text-zinc-600 font-light",
+                        children: [
+                            "Access an exclusive offer of",
+                            /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
+                            " ex-fortune 500 expertise."
+                        ]
+                    })
+                ]
+            }),
+            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                className: "w-full md:w-1/4 pt-8 md:pt-0",
                 children: [
                     /*#__PURE__*/ (0,jsx_runtime_.jsxs)("svg", {
                         width: "42",
@@ -1518,16 +1522,20 @@ function Grizzly() {
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx("h2", {
                         className: "text-lg font-medium pt-3",
-                        children: "Intuitive platform"
+                        children: "Complete platform"
                     }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
                         className: "text-zinc-600 font-light",
-                        children: "Navigate each step with ease in one streamlined experience."
+                        children: [
+                            "From idea validation until ",
+                            /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
+                            "business modelling."
+                        ]
                     })
                 ]
             }),
             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                className: "w-full md:w-1/4",
+                className: "w-full md:w-1/4 pt-8 pb-12 md:pt-0 md:pb-0",
                 children: [
                     /*#__PURE__*/ (0,jsx_runtime_.jsxs)("svg", {
                         width: "42",
@@ -1555,7 +1563,7 @@ function Grizzly() {
                         ]
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx("h2", {
-                        className: "text-lg font-medium pt-3",
+                        className: "text-lg font-medium pt-3 ",
                         children: "Guaranteed satisfaction"
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx("p", {
@@ -1653,35 +1661,6 @@ function Hero() {
                             ]
                         })
                     })
-                }),
-                /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                    className: "relative w-full h-full gotely",
-                    "aria-hidden": "true",
-                    children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                        className: "background ",
-                        children: [
-                            /*#__PURE__*/ jsx_runtime_.jsx("span", {}),
-                            /*#__PURE__*/ jsx_runtime_.jsx("span", {}),
-                            /*#__PURE__*/ jsx_runtime_.jsx("span", {}),
-                            /*#__PURE__*/ jsx_runtime_.jsx("span", {}),
-                            /*#__PURE__*/ jsx_runtime_.jsx("span", {}),
-                            /*#__PURE__*/ jsx_runtime_.jsx("span", {}),
-                            /*#__PURE__*/ jsx_runtime_.jsx("span", {}),
-                            /*#__PURE__*/ jsx_runtime_.jsx("span", {}),
-                            /*#__PURE__*/ jsx_runtime_.jsx("span", {}),
-                            /*#__PURE__*/ jsx_runtime_.jsx("span", {}),
-                            /*#__PURE__*/ jsx_runtime_.jsx("span", {}),
-                            /*#__PURE__*/ jsx_runtime_.jsx("span", {}),
-                            /*#__PURE__*/ jsx_runtime_.jsx("span", {}),
-                            /*#__PURE__*/ jsx_runtime_.jsx("span", {}),
-                            /*#__PURE__*/ jsx_runtime_.jsx("span", {}),
-                            /*#__PURE__*/ jsx_runtime_.jsx("span", {}),
-                            /*#__PURE__*/ jsx_runtime_.jsx("span", {}),
-                            /*#__PURE__*/ jsx_runtime_.jsx("span", {}),
-                            /*#__PURE__*/ jsx_runtime_.jsx("span", {}),
-                            /*#__PURE__*/ jsx_runtime_.jsx("span", {})
-                        ]
-                    })
                 })
             ]
         })
@@ -1696,111 +1675,53 @@ var next_link = __webpack_require__(4834);
 
 function Newsletter() {
     return /*#__PURE__*/ jsx_runtime_.jsx("section", {
-        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+        children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
             className: "max-w-6xl mx-auto px-4 sm:px-6 pt-12",
-            children: [
-                /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                    className: "pb-12 md:pb-20",
+            children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                className: "pb-12 md:pb-20",
+                children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                    className: "relative bg-zinc-800 rounded py-10 px-8 md:py-16 md:px-12 shadow-2xl overflow-hidden",
+                    "data-aos": "zoom-y-out",
                     children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                        className: "relative bg-zinc-800 rounded py-10 px-8 md:py-16 md:px-12 shadow-2xl overflow-hidden",
-                        "data-aos": "zoom-y-out",
-                        children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                            className: "relative ",
-                            style: {
-                                width: "100%",
-                                display: "flex",
-                                justifyContent: "center"
-                            },
-                            children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                className: "text-center  lg:max-w-xl",
-                                children: [
-                                    /*#__PURE__*/ jsx_runtime_.jsx("h3", {
-                                        className: "h3 text-white mb-2",
-                                        children: "Join the beta."
-                                    }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                        className: "text-gray-300 text-lg mb-6",
-                                        children: "Join the beta testing of the platfom."
-                                    }),
-                                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("form", {
-                                        className: "w-full ",
-                                        children: [
-                                            /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                                href: "https://app.gotely.com",
-                                                className: "flex flex-col sm:flex-row justify-center ",
-                                                children: /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                                    className: "md:px-6 px-3 py-2 rounded-lg cursor-pointer text-dark bg-neutral-50 hover:bg-neutral-300 shadow",
-                                                    children: "Enroll"
-                                                })
-                                            }),
-                                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                                className: "text-sm text-gray-400 mt-3",
-                                                children: "No spam. You can delete your account at any time."
-                                            })
-                                        ]
-                                    })
-                                ]
-                            })
-                        })
-                    })
-                }),
-                /*#__PURE__*/ jsx_runtime_.jsx("hr", {}),
-                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                    className: "flex justify-between items-center",
-                    children: [
-                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                            className: "flex justify-between relative items-center",
+                        className: "relative ",
+                        style: {
+                            width: "100%",
+                            display: "flex",
+                            justifyContent: "center"
+                        },
+                        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                            className: "text-center  lg:max-w-xl",
                             children: [
-                                /*#__PURE__*/ jsx_runtime_.jsx("svg", {
-                                    width: "80",
-                                    height: "40",
-                                    viewBox: "0 0 300 100",
-                                    version: "1.1",
-                                    style: {
-                                        fillRule: "evenodd",
-                                        clipRule: "evenodd",
-                                        strokeLinejoin: "round",
-                                        strokeMiterlimit: 2
-                                    },
-                                    children: /*#__PURE__*/ jsx_runtime_.jsx("g", {
-                                        fill: "black",
-                                        transform: "matrix(1,0,0,1,20.0316,-1.12926)",
-                                        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("text", {
-                                            x: "11.941px",
-                                            y: "68.911px",
-                                            style: {
-                                                fontFamily: "'AvenirNext-Bold', 'Avenir Next', sans-serif",
-                                                fontWeight: 700,
-                                                fontSize: "68.921px"
-                                            },
-                                            children: [
-                                                "G",
-                                                /*#__PURE__*/ jsx_runtime_.jsx("tspan", {
-                                                    x: "67.009px 112.635px 140.341px 183.486px 206.092px ",
-                                                    y: "68.911px 68.911px 68.911px 68.911px 68.911px",
-                                                    children: "otely"
-                                                })
-                                            ]
-                                        })
-                                    })
-                                }),
-                                /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                    children: "|"
+                                /*#__PURE__*/ jsx_runtime_.jsx("h3", {
+                                    className: "h3 text-white mb-2",
+                                    children: "Join the beta."
                                 }),
                                 /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                    className: "py-4 text-xs font-light",
-                                    children: "CW1, Inc 2023 \xa9 All rights reserved"
+                                    className: "text-gray-300 text-lg mb-6",
+                                    children: "Join the beta testing of the platfom."
+                                }),
+                                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("form", {
+                                    className: "w-full ",
+                                    children: [
+                                        /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                                            href: "https://app.gotely.com",
+                                            className: "flex flex-col sm:flex-row justify-center ",
+                                            children: /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                                                className: "md:px-6 px-3 py-2 rounded-lg cursor-pointer text-dark bg-neutral-50 hover:bg-neutral-300 shadow",
+                                                children: "Enroll"
+                                            })
+                                        }),
+                                        /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                            className: "text-sm text-gray-400 mt-3",
+                                            children: "No spam. You can delete your account at any time."
+                                        })
+                                    ]
                                 })
                             ]
-                        }),
-                        /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                            className: "text-xs font-light",
-                            href: "https://www.cw1.com/legal/data-privacy",
-                            children: "Privacy policy"
                         })
-                    ]
+                    })
                 })
-            ]
+            })
         })
     });
 }
@@ -2180,16 +2101,69 @@ function Home() {
                                         children: " advisor."
                                     })
                                 ]
-                            }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                children: "Merging AI-enhanced evaluation criteria with top strategy & finance expertise, ensuring exceptional, on-brand deliveries."
                             })
                         ]
                     })
                 ]
             }),
             /*#__PURE__*/ jsx_runtime_.jsx(Testimonials, {}),
-            /*#__PURE__*/ jsx_runtime_.jsx(Newsletter, {})
+            /*#__PURE__*/ jsx_runtime_.jsx(Newsletter, {}),
+            /*#__PURE__*/ jsx_runtime_.jsx("hr", {}),
+            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                className: "flex justify-between items-center px-3 md:px-9",
+                children: [
+                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                        className: "flex justify-between relative items-center",
+                        children: [
+                            /*#__PURE__*/ jsx_runtime_.jsx("svg", {
+                                width: "80",
+                                height: "40",
+                                viewBox: "0 0 300 100",
+                                version: "1.1",
+                                style: {
+                                    fillRule: "evenodd",
+                                    clipRule: "evenodd",
+                                    strokeLinejoin: "round",
+                                    strokeMiterlimit: 2
+                                },
+                                children: /*#__PURE__*/ jsx_runtime_.jsx("g", {
+                                    fill: "black",
+                                    transform: "matrix(1,0,0,1,20.0316,-1.12926)",
+                                    children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("text", {
+                                        x: "11.941px",
+                                        y: "68.911px",
+                                        style: {
+                                            fontFamily: "'AvenirNext-Bold', 'Avenir Next', sans-serif",
+                                            fontWeight: 700,
+                                            fontSize: "68.921px"
+                                        },
+                                        children: [
+                                            "G",
+                                            /*#__PURE__*/ jsx_runtime_.jsx("tspan", {
+                                                x: "67.009px 112.635px 140.341px 183.486px 206.092px ",
+                                                y: "68.911px 68.911px 68.911px 68.911px 68.911px",
+                                                children: "otely"
+                                            })
+                                        ]
+                                    })
+                                })
+                            }),
+                            /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                                children: "|"
+                            }),
+                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                className: "py-4 text-xs font-light ps-3",
+                                children: "CW1, Inc 2023 \xa9 All rights reserved"
+                            })
+                        ]
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                        className: "text-xs font-light",
+                        href: "https://www.cw1.com/legal/data-privacy",
+                        children: "Privacy policy"
+                    })
+                ]
+            })
         ]
     });
 }

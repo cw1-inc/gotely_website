@@ -24,7 +24,7 @@ export default function Features() {
   }, []) 
 
   return (
-    <section className="relative h-[200vh] md:h-[80vh] md:pb-0" >
+    <section className="relative h-[240vh] md:h-[100vh] md:pb-0" >
 
       {/* Section background (needs .relative class on parent and next sibling elements) */}
       <div className="absolute inset-0  bg-gray-100 pointer-events-none mb-16" aria-hidden="true"></div>
@@ -34,16 +34,16 @@ export default function Features() {
         <div className="pt-12 md:pt-20">
 
           {/* Section header */}
-          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-4">
-            <h1 className="text-2xl mb-4">More insights, more strategy, <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400 font-bold">less time.</span></h1>
+          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
+            <h1 className="text-4xl mb-4">More insights, more strategy, <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400 font-bold">less time.</span></h1>
             <p className="text-sm font-light text-gray-600 ">CW1 had already the moto of being fast. Now we are even faster. We are concentrating all business activities within one single platform which is powered and boosted by our own AI model and processor (A10 - Datacenter Frankfurt).</p>
           </div>
 
           {/* Section content */}
-          <div className="md:grid md:grid-cols-12 md:gap-6">
+          <div className="flex flex-col md:flex-row">
 
             {/* Content */}
-            <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6 md:mt-6" data-aos="fade-right">
+            <div className="max-w-xl order-2 md:order-1 md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6 md:mt-6" data-aos="fade-right">
               <div className="md:pr-4 lg:pr-12 xl:pr-16 pb-4">
                 <h3 className="text-xl ">Powerful suite of tools</h3>
                 <p className="text-md text-gray-600">Access the knowledge of experts in a faster and cheaper way.</p>
@@ -99,7 +99,7 @@ export default function Features() {
             </div>
 
             {/* Tabs items */}
-            <div className="hidden md:block max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1" data-aos="zoom-y-out" ref={tabs}>
+            <div className="order-1 md:order-2 md:block max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1" data-aos="zoom-y-out" ref={tabs}>
               <div className="relative flex flex-col text-center lg:text-right">
                 {/* Item 1 */}
                 <Transition
