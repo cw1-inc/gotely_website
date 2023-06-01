@@ -379,20 +379,20 @@ Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_
 
 /***/ }),
 
-/***/ 2649:
+/***/ 8176:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 7649, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 1591));
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 7977, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6612));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6067));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9977));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 1936));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 7977, 23))
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9977))
 
 /***/ }),
 
-/***/ 6675:
+/***/ 8635:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 3481, 23));
@@ -466,11 +466,11 @@ function Features() {
                             className: "max-w-3xl mx-auto text-center pb-12 md:pb-20",
                             children: [
                                 /*#__PURE__*/ (0,jsx_runtime_.jsxs)("h1", {
-                                    className: "text-4xl mb-4",
+                                    className: "text-4xl mb-4 font-light",
                                     children: [
                                         "More insights, more strategy, ",
                                         /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                            className: "bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400 font-bold",
+                                            className: "bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400 font-light",
                                             children: "less time."
                                         })
                                     ]
@@ -492,11 +492,11 @@ function Features() {
                                             className: "md:pr-4 lg:pr-12 xl:pr-16 pb-4",
                                             children: [
                                                 /*#__PURE__*/ jsx_runtime_.jsx("h3", {
-                                                    className: "text-xl ",
+                                                    className: "text-xl font-light",
                                                     children: "Powerful suite of tools"
                                                 }),
                                                 /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                                    className: "text-md text-gray-600",
+                                                    className: "text-md text-gray-600 font-light",
                                                     children: "Access the knowledge of experts in a faster and cheaper way."
                                                 })
                                             ]
@@ -515,12 +515,12 @@ function Features() {
                                                         /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                                                             children: [
                                                                 /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                                                    className: "font-bold text-md  tracking-tight mb-1",
-                                                                    children: "AI-Powered Business Analysis"
+                                                                    className: "font-medium text-md  tracking-tight mb-1",
+                                                                    children: "AI-Powered Idea Validator"
                                                                 }),
                                                                 /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                                                     className: "text-gray-600 text-sm font-light",
-                                                                    children: "Analyze and discover market research, competitors, trends in the industry, and identify areas of improvement. "
+                                                                    children: "Analyze and discover market demand, benchmarking and competitor analysis, Target market, and execution plan. "
                                                                 })
                                                             ]
                                                         }),
@@ -548,7 +548,7 @@ function Features() {
                                                         /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                                                             children: [
                                                                 /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                                                    className: "font-bold trext-md leading-snug tracking-tight mb-1",
+                                                                    className: "font-medium trext-md leading-snug tracking-tight mb-1",
                                                                     children: "Customised Business Development Plans"
                                                                 }),
                                                                 /*#__PURE__*/ jsx_runtime_.jsx("div", {
@@ -582,8 +582,8 @@ function Features() {
                                                         /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                                                             children: [
                                                                 /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                                                    className: "font-bold leading-snug tracking-tight mb-1 text-md",
-                                                                    children: "AI-Powered Matchmaking for partnerships and business opportunities"
+                                                                    className: "font-medium leading-snug tracking-tight mb-1 text-md",
+                                                                    children: "AI-Powered Matchmaking "
                                                                 }),
                                                                 /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                                                     className: "text-gray-600 text-sm font-light",
@@ -1095,7 +1095,7 @@ function FeaturesBlocks() {
                         /*#__PURE__*/ jsx_runtime_.jsx("div", {
                             className: "max-w-3xl mx-auto text-center pb-12 md:pb-20",
                             children: /*#__PURE__*/ jsx_runtime_.jsx("h2", {
-                                className: "h2 mb-4 text-3xl font-bold",
+                                className: "h2 mb-4 text-4xl font-light",
                                 children: "Explore the solutions"
                             })
                         }),
@@ -1428,6 +1428,44 @@ function Grizzly() {
                 className: "w-full md:w-1/4 pt-8 md:pt-0",
                 children: [
                     /*#__PURE__*/ (0,jsx_runtime_.jsxs)("svg", {
+                        width: "42",
+                        height: "56",
+                        viewBox: "0 0 52 56",
+                        fill: "none",
+                        xmlns: "http://www.w3.org/2000/svg",
+                        children: [
+                            /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                                d: "M0 8C0 5.79086 1.79086 4 4 4H22V52H4C1.79086 52 0 50.2091 0 48V8Z",
+                                fill: "#C4C4C4"
+                            }),
+                            /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                                d: "M48 51.1222C50.1575 51.1268 52 49.3756 52 47.1209V6.87929C52 4.62459 50.1575 2.87336 48 2.87794V51.1222Z",
+                                fill: "#999999"
+                            }),
+                            /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                                d: "M24 4.00005L41.2845 0.857422C43.7398 0.410992 46 2.29728 46 4.7929V51.2072C46 53.7028 43.7398 55.5891 41.2845 55.1427L24 52V4.00005Z",
+                                fill: "#E6E6E6"
+                            })
+                        ]
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx("h2", {
+                        className: "text-lg font-medium pt-3",
+                        children: "Validate ideas"
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
+                        className: "text-zinc-600 font-light",
+                        children: [
+                            "See how your business idea  ",
+                            /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
+                            "scores & performs."
+                        ]
+                    })
+                ]
+            }),
+            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                className: "w-full md:w-1/4 pt-8 md:pt-0",
+                children: [
+                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("svg", {
                         width: "40",
                         height: "52",
                         viewBox: "0 0 56 52",
@@ -1450,7 +1488,7 @@ function Grizzly() {
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx("h2", {
                         className: "text-lg font-medium pt-3",
-                        children: "AI-driven precision"
+                        children: "AI-driven analysis"
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx("p", {
                         className: "text-zinc-600 font-light",
@@ -1484,7 +1522,7 @@ function Grizzly() {
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx("h2", {
                         className: "text-lg font-medium pt-3",
-                        children: "Elite Expertise"
+                        children: "Book Elite Expertise"
                     }),
                     /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
                         className: "text-zinc-600 font-light",
@@ -1492,44 +1530,6 @@ function Grizzly() {
                             "Access an exclusive offer of",
                             /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
                             " ex-fortune 500 expertise."
-                        ]
-                    })
-                ]
-            }),
-            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                className: "w-full md:w-1/4 pt-8 md:pt-0",
-                children: [
-                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("svg", {
-                        width: "42",
-                        height: "56",
-                        viewBox: "0 0 52 56",
-                        fill: "none",
-                        xmlns: "http://www.w3.org/2000/svg",
-                        children: [
-                            /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                                d: "M0 8C0 5.79086 1.79086 4 4 4H22V52H4C1.79086 52 0 50.2091 0 48V8Z",
-                                fill: "#C4C4C4"
-                            }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                                d: "M48 51.1222C50.1575 51.1268 52 49.3756 52 47.1209V6.87929C52 4.62459 50.1575 2.87336 48 2.87794V51.1222Z",
-                                fill: "#999999"
-                            }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                                d: "M24 4.00005L41.2845 0.857422C43.7398 0.410992 46 2.29728 46 4.7929V51.2072C46 53.7028 43.7398 55.5891 41.2845 55.1427L24 52V4.00005Z",
-                                fill: "#E6E6E6"
-                            })
-                        ]
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("h2", {
-                        className: "text-lg font-medium pt-3",
-                        children: "Complete platform"
-                    }),
-                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
-                        className: "text-zinc-600 font-light",
-                        children: [
-                            "From idea validation until ",
-                            /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
-                            "business modelling."
                         ]
                     })
                 ]
@@ -1589,7 +1589,7 @@ var image_default = /*#__PURE__*/__webpack_require__.n(next_image);
 function Hero() {
     return /*#__PURE__*/ jsx_runtime_.jsx("section", {
         children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("section", {
-            className: "relative w-full h-[90vh]",
+            className: "relative w-full md:h-[80vh] h-[80vh]",
             children: [
                 /*#__PURE__*/ jsx_runtime_.jsx("div", {
                     className: " w-full",
@@ -1600,31 +1600,45 @@ function Hero() {
                         className: "absolute  hidden md:block z-40 right-0 top-28",
                         src: pc1,
                         alt: "gotely",
-                        width: 700,
-                        height: 400
+                        width: 600,
+                        height: 400,
+                        style: {
+                            maxWidth: 600
+                        }
                     })
                 }),
                 /*#__PURE__*/ jsx_runtime_.jsx("div", {
                     className: " absolute w-full my-auto mx-auto px-4  z-50   px-3 md:px-9",
                     children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                        className: "pt-32 pb-12 md:pt-40 md:pb-20 ",
+                        className: "pt-20 pb-12 md:pt-40 md:pb-20 ",
                         children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                            className: "text-start pb-12 md:pb-16 ",
+                            className: "text-start my-auto",
                             children: [
                                 /*#__PURE__*/ jsx_runtime_.jsx("h1", {
-                                    className: "text-sm md:text-md",
+                                    className: "text-sm md:text-lg",
                                     children: "AI powered Business Development Platform "
                                 }),
                                 /*#__PURE__*/ (0,jsx_runtime_.jsxs)("h2", {
-                                    className: "text-3xl md:text-6xl py-5 font-extrabold leading-tighter tracking-tighter mb-4",
+                                    className: "text-5xl md:hidden md:text-8xl py-3 md:py-5 font-light leading-tighter tracking-tighter mb-4",
                                     "data-aos": "zoom-y-out",
                                     children: [
-                                        "Business Development ",
-                                        /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
-                                        " just became  ",
+                                        "The Fastest way  to analyse  ",
                                         /*#__PURE__*/ jsx_runtime_.jsx("span", {
                                             className: "bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400",
-                                            children: "faster"
+                                            children: "ideas."
+                                        })
+                                    ]
+                                }),
+                                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("h2", {
+                                    className: "hidden md:block text-4xl md:text-7xl py-3 md:py-5 font-light leading-tighter tracking-tighter mb-4",
+                                    "data-aos": "zoom-y-out",
+                                    children: [
+                                        "The Fastest way ",
+                                        /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
+                                        " to analyse  ",
+                                        /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                                            className: "bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400",
+                                            children: "ideas."
                                         })
                                     ]
                                 }),
@@ -1633,7 +1647,7 @@ function Hero() {
                                     "data-aos": "zoom-y-out",
                                     "data-aos-delay": "150",
                                     children: [
-                                        "CW1 introduces the ",
+                                        "CW1 introduces ",
                                         /*#__PURE__*/ jsx_runtime_.jsx("b", {
                                             children: "Gotely"
                                         }),
@@ -1652,9 +1666,34 @@ function Hero() {
                                     "data-aos-delay": "300",
                                     children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
                                         href: "https://app.gotely.com",
-                                        children: /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                            className: "btn text-white bg-slate-900 hover:bg-gray-800 w-full px-6 py-2 rounded-md",
-                                            children: "Join Beta"
+                                        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                            className: "text-white bg-slate-900 hover:bg-gray-800 px-6 py-2 rounded-md flex justify-between items-center w-36",
+                                            children: [
+                                                /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                                                    children: "Join Beta"
+                                                }),
+                                                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("svg", {
+                                                    width: "16",
+                                                    height: "16",
+                                                    viewBox: "0 0 16 16",
+                                                    fill: "none",
+                                                    xmlns: "http://www.w3.org/2000/svg",
+                                                    children: [
+                                                        /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                                                            d: "M8.5625 1.25L15.3125 8L8.5625 14.75",
+                                                            stroke: "white",
+                                                            "stroke-linecap": "round",
+                                                            "stroke-linejoin": "round"
+                                                        }),
+                                                        /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                                                            d: "M14.375 8H0.6875",
+                                                            stroke: "white",
+                                                            "stroke-linecap": "round",
+                                                            "stroke-linejoin": "round"
+                                                        })
+                                                    ]
+                                                })
+                                            ]
                                         })
                                     })
                                 })
