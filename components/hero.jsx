@@ -38,11 +38,16 @@ export default function Hero() {
                                 <a href="https://app.gotely.com">
                                     <div className="text-white bg-slate-900 hover:bg-gray-800 px-6 py-2 rounded-md flex justify-between items-center w-36">
                                         <span>Join Beta</span>
-                                        <svg width="16" height="16"  viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M8.5625 1.25L15.3125 8L8.5625 14.75" stroke="white" stroke-linecap="round" stroke-linejoin="round" />
                                             <path d="M14.375 8H0.6875" stroke="white" stroke-linecap="round" stroke-linejoin="round" />
                                         </svg>
                                     </div>
+                                </a>
+                            </div>
+                            <div className="pt-3">
+                                <a href="https://www.producthunt.com/posts/gotely?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-gotely" target="_blank" >
+                                    <img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=398139&theme=neutral" alt="Gotely - Powered&#0032;by&#0032;CW1 | Product Hunt" style={{ width: "165px", height: "36px" }} width="250" height="54" />
                                 </a>
                             </div>
 

@@ -379,14 +379,14 @@ Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_
 
 /***/ }),
 
-/***/ 8176:
+/***/ 9994:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 7649, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 1591));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 7977, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6612));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6067));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 1591));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 1936));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9977))
 
@@ -1694,6 +1694,23 @@ function Hero() {
                                                     ]
                                                 })
                                             ]
+                                        })
+                                    })
+                                }),
+                                /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                    className: "pt-3",
+                                    children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                                        href: "https://www.producthunt.com/posts/gotely?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-gotely",
+                                        target: "_blank",
+                                        children: /*#__PURE__*/ jsx_runtime_.jsx("img", {
+                                            src: "https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=398139&theme=neutral",
+                                            alt: "Gotely - Powered by CW1 | Product Hunt",
+                                            style: {
+                                                width: "165px",
+                                                height: "36px"
+                                            },
+                                            width: "250",
+                                            height: "54"
                                         })
                                     })
                                 })
