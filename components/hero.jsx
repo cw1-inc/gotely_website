@@ -9,7 +9,7 @@ export default function Hero() {
 
     return (
         <section>
-            <section className="relative w-full md:h-[80vh] h-[80vh]">
+            <section className="relative w-full md:h-[75vh] h-[80vh]">
 
 
                 {/* <div class="trapezoid absolute hidden md:block  z-40" style={{ bottom: 0 }}></div> */}
@@ -33,17 +33,18 @@ export default function Hero() {
                             <h2 className="hidden md:block text-4xl md:text-7xl py-3 md:py-5 font-light leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out">The Fastest way <br /> to analyse  <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400">ideas.</span></h2>
 
                             <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">CW1 introduces <b>Gotely</b> <br /> <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400"> For almost free.</span></p>
-                            <div className="" data-aos="zoom-y-out" data-aos-delay="300">
+                            <div className="flex items-center" data-aos="zoom-y-out" data-aos-delay="300">
 
                                 <a href="https://app.gotely.com">
                                     <div className="text-white bg-slate-900 hover:bg-gray-800 px-6 py-2 rounded-md flex justify-between items-center w-36">
-                                        <span>Join Beta</span>
+                                        <span>Join</span>
                                         <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M8.5625 1.25L15.3125 8L8.5625 14.75" stroke="white" stroke-linecap="round" stroke-linejoin="round" />
                                             <path d="M14.375 8H0.6875" stroke="white" stroke-linecap="round" stroke-linejoin="round" />
                                         </svg>
                                     </div>
                                 </a>
+                                <a href="https://outlook.office365.com/owa/calendar/CW11@nortb.com/bookings/s/6jgIL5PSM0yONHlJChN-kQ2" className="ms-3 cursor-pointer hover:underline"> Or book a demo</a>
                             </div>
                             <div className="pt-3">
                                 <a href="https://www.producthunt.com/posts/gotely?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-gotely" target="_blank" >
