@@ -321,8 +321,8 @@ __webpack_require__.r(__webpack_exports__);
         children: ['__PAGE__', {}, {
           page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9807)), "/Users/pedrospecter/Downloads/work/gotely/website/app/page.jsx"],
           metadata: {
-    icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4756))).default(props))],
-    apple: [],
+    icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4756))).default(props)),(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8673))).default(props))],
+    apple: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 5506))).default(props))],
     openGraph: [],
     twitter: [],
     manifest: undefined
@@ -332,8 +332,8 @@ __webpack_require__.r(__webpack_exports__);
         {
           'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9655)), "/Users/pedrospecter/Downloads/work/gotely/website/app/layout.js"],
           metadata: {
-    icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4756))).default(props))],
-    apple: [],
+    icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4756))).default(props)),(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8673))).default(props))],
+    apple: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 5506))).default(props))],
     openGraph: [],
     twitter: [],
     manifest: undefined
@@ -379,7 +379,7 @@ Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_
 
 /***/ }),
 
-/***/ 324:
+/***/ 6713:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 7649, 23));
@@ -387,12 +387,12 @@ Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_re
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 7977, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6612));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 1936));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9977));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6067))
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6067));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9977))
 
 /***/ }),
 
-/***/ 8635:
+/***/ 6675:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 3481, 23));
@@ -977,6 +977,21 @@ const metadata = {
     description: "Unlock smart AI-driven business strategies with our app. Boost growth, optimize resources & unlock potential. Take your business to the next level, today!",
     icons: {
         icon: "./favicon.ico"
+    },
+    openGraph: {
+        title: "Gotely | Strategy generation by AI and CW1 experts.",
+        description: "Unlock smart AI-driven business strategies with our app. Boost growth, optimize resources & unlock potential. Take your business to the next level, today!",
+        url: "https://wwww.gotely.comg",
+        siteName: "Gotely.com",
+        images: [
+            {
+                url: "https://i.ibb.co/XCLc423/marketing.jpg",
+                width: 800,
+                height: 600
+            }
+        ],
+        locale: "en-US",
+        type: "website"
     }
 };
 function RootLayout({ children  }) {
@@ -1003,32 +1018,12 @@ function RootLayout({ children  }) {
                         sizes: "any"
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx("meta", {
-                        property: "og:title",
-                        content: "Gotely | Strategy generation by AI and CW1 experts."
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("meta", {
                         name: "keywords",
                         content: "Strategy, AI,AI generated, business strategy, corporate strategy, business analysis, business idea validator"
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx("meta", {
                         name: "author",
                         content: "CW1"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("meta", {
-                        property: "og:description",
-                        content: "Unlock smart AI-driven business strategies with our app. Boost growth, optimize resources & unlock potential. Take your business to the next level, today!"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("meta", {
-                        property: "og:image",
-                        content: marketing
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("meta", {
-                        property: "og:url",
-                        content: "https://wwww.gotely.com"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("meta", {
-                        property: "og:image:alt",
-                        content: "About Acme"
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx("meta", {
                         name: "twitter:title",
@@ -1705,14 +1700,14 @@ function Hero() {
                                                             /*#__PURE__*/ jsx_runtime_.jsx("path", {
                                                                 d: "M8.5625 1.25L15.3125 8L8.5625 14.75",
                                                                 stroke: "white",
-                                                                "stroke-linecap": "round",
-                                                                "stroke-linejoin": "round"
+                                                                strokeLinecap: "round",
+                                                                strokeLinejoin: "round"
                                                             }),
                                                             /*#__PURE__*/ jsx_runtime_.jsx("path", {
                                                                 d: "M14.375 8H0.6875",
                                                                 stroke: "white",
-                                                                "stroke-linecap": "round",
-                                                                "stroke-linejoin": "round"
+                                                                strokeLinecap: "round",
+                                                                strokeLinejoin: "round"
                                                             })
                                                         ]
                                                     })
@@ -2304,6 +2299,30 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ 5506:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var next_dist_lib_metadata_get_metadata_route__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(3180);
+/* harmony import */ var next_dist_lib_metadata_get_metadata_route__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(next_dist_lib_metadata_get_metadata_route__WEBPACK_IMPORTED_MODULE_0__);
+  
+
+  /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((props) => {
+    const imageData = {"type":"image/png","sizes":"180x180"}
+    const imageUrl = (0,next_dist_lib_metadata_get_metadata_route__WEBPACK_IMPORTED_MODULE_0__.fillMetadataSegment)(".", props.params, "apple-icon.png")
+
+    return [{
+      ...imageData,
+      url: imageUrl + "?5c3ea3bcd5fa60d7",
+    }]
+  });
+
+/***/ }),
+
 /***/ 4756:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -2323,6 +2342,30 @@ __webpack_require__.r(__webpack_exports__);
     return [{
       ...imageData,
       url: imageUrl + "",
+    }]
+  });
+
+/***/ }),
+
+/***/ 8673:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var next_dist_lib_metadata_get_metadata_route__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(3180);
+/* harmony import */ var next_dist_lib_metadata_get_metadata_route__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(next_dist_lib_metadata_get_metadata_route__WEBPACK_IMPORTED_MODULE_0__);
+  
+
+  /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((props) => {
+    const imageData = {"type":"image/png","sizes":"192x192"}
+    const imageUrl = (0,next_dist_lib_metadata_get_metadata_route__WEBPACK_IMPORTED_MODULE_0__.fillMetadataSegment)(".", props.params, "icon.png")
+
+    return [{
+      ...imageData,
+      url: imageUrl + "?e355303fac37a264",
     }]
   });
 

@@ -1,5 +1,7 @@
 {
-  "/robots.txt/route": "/robots.txt",
+  "/apple-icon.png/route": "/apple-icon.png",
+  "/favicon.ico/route": "/favicon.ico",
+  "/icon.png/route": "/icon.png",
   "/page": "/",
-  "/favicon.ico/route": "/favicon.ico"
+  "/robots.txt/route": "/robots.txt"
 }

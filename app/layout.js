@@ -12,6 +12,21 @@ export const metadata = {
   icons: {
     icon: './favicon.ico',
   },
+  openGraph: {
+    title: 'Gotely | Strategy generation by AI and CW1 experts.',
+    description: 'Unlock smart AI-driven business strategies with our app. Boost growth, optimize resources & unlock potential. Take your business to the next level, today!',
+    url: 'https://wwww.gotely.comg',
+    siteName: 'Gotely.com',
+    images: [
+      {
+        url: 'https://i.ibb.co/XCLc423/marketing.jpg',
+        width: 800,
+        height: 600,
+      },
+    ],
+    locale: 'en-US',
+    type: 'website',
+  },
 }
 
 export default function RootLayout({ children }) {
@@ -29,16 +44,15 @@ export default function RootLayout({ children }) {
     })(window, document, "clarity", "script", "ffs8p8eefs");`}} />
       <head>
         <link rel="icon" href="/favicon.ico" sizes="any" />
-        <meta property="og:title" content={"Gotely | Strategy generation by AI and CW1 experts."} />
+        
         <meta name="keywords" content={"Strategy, AI,AI generated, business strategy, corporate strategy, business analysis, business idea validator"} />
         <meta name="author" content={"CW1"} />
+        {/* <meta property="og:title" content={"Gotely | Strategy generation by AI and CW1 experts."} />
         <meta property="og:description" content={"Unlock smart AI-driven business strategies with our app. Boost growth, optimize resources & unlock potential. Take your business to the next level, today!"} />
         <meta property="og:image" content={Image} />
         <meta property="og:url" content={"https://wwww.gotely.com"} />
-        {/* <meta property="og:image:type" content="/imagines/marketing.jpg" />
-        <meta property="og:image:width" content="/imagines/marketing.jpg" />
-        <meta property="og:image:height" content="/imagines/marketing.jpg" /> */}
-        <meta property="og:image:alt" content="About Acme" />
+        <meta property="og:image:alt" content="About Acme" /> */}
+
         <meta name="twitter:title" content={"Gotely | Strategy generation by AI and CW1 experts."} />
         <meta name="twitter:site" content="https://www.gotely.com" />
         <meta name="twitter:description" content={"Unlock smart AI-driven business strategies with our app. Boost growth, optimize resources & unlock potential. Take your business to the next level, today!"} />
