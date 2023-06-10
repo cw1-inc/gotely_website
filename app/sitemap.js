@@ -1,6 +1,6 @@
 
 export async function fetchLinks() {
-    const res = await fetch(`https://cdn.contentful.com/spaces/$227tdebzsnjx/entries?content_type=post&select=fields.slug`, {
+    const res = await fetch(`https://cdn.contentful.com/spaces/227tdebzsnjx/entries?content_type=post&select=fields.slug`, {
         method: 'GET',
         headers: {
             Authorization: `Bearer ` + "gXsNtlAeUoodqFX86AHXMMcl3MeLfSVzy3PopnMGhvU"
