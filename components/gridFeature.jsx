@@ -7,7 +7,7 @@ export default function Grizzly() {
 
 
     return (
-        <section className="bg-white w-full px-3 md:px-9  flex flex-wrap md:pb-24 md:pt-12">
+        <section className="bg-white w-full px-3 md:px-16  flex flex-wrap md:pb-24 md:pt-12">
             <div className="w-full md:w-1/4 pt-8 md:pt-0">
                 <svg width="42" height="56" viewBox="0 0 52 56" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 8C0 5.79086 1.79086 4 4 4H22V52H4C1.79086 52 0 50.2091 0 48V8Z" fill="#C4C4C4" />

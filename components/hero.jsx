@@ -9,7 +9,7 @@ export default function Hero() {
 
     return (
         <section>
-            <section className="relative w-full md:h-[75vh] h-[80vh]">
+            <section className="relative w-full md:h-[75vh] h-[85vh]">
 
 
                 {/* <div class="trapezoid absolute hidden md:block  z-40" style={{ bottom: 0 }}></div> */}
@@ -21,14 +21,14 @@ export default function Hero() {
 
                 </div>
 
-                <div className=" absolute w-full my-auto mx-auto px-4  z-50   px-3 md:px-9">
+                <div className=" absolute w-full my-auto mx-auto px-4  z-50   px-3 md:px-16">
 
 
                     <div className="pt-20 pb-12 md:pt-40 md:pb-20 ">
 
 
                         <div className="text-start my-auto">
-                            <h1 className="text-sm md:text-lg">AI powered Business Development Platform </h1>
+                            <h1 className="text-xs md:text-sm">AI powered Business Development Platform </h1>
                             <h2 className="text-5xl md:hidden md:text-8xl py-3 md:py-5 font-light leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out">The Fastest way  to analyse  <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400">ideas.</span></h2>
                             <h2 className="hidden md:block text-4xl md:text-7xl py-3 md:py-5 font-light leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out">The Fastest way <br /> to analyse  <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400">ideas.</span></h2>
 

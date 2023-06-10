@@ -1,7 +1,10 @@
 {
-  "/favicon.ico/route": "/favicon.ico",
   "/apple-icon.png/route": "/apple-icon.png",
+  "/favicon.ico/route": "/favicon.ico",
   "/icon.png/route": "/icon.png",
   "/page": "/",
-  "/robots.txt/route": "/robots.txt"
+  "/robots.txt/route": "/robots.txt",
+  "/opengraph-image.jpg/route": "/opengraph-image.jpg",
+  "/twitter-image.jpg/route": "/twitter-image.jpg",
+  "/sitemap.xml/route": "/sitemap.xml"
 }

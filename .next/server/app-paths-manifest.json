@@ -1,7 +1,10 @@
 {
-  "/favicon.ico/route": "app/favicon.ico/route.js",
   "/apple-icon.png/route": "app/apple-icon.png/route.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
   "/icon.png/route": "app/icon.png/route.js",
   "/page": "app/page.js",
-  "/robots.txt/route": "app/robots.txt/route.js"
+  "/robots.txt/route": "app/robots.txt/route.js",
+  "/opengraph-image.jpg/route": "app/opengraph-image.jpg/route.js",
+  "/twitter-image.jpg/route": "app/twitter-image.jpg/route.js",
+  "/sitemap.xml/route": "app/sitemap.xml/route.js"
 }

@@ -323,8 +323,8 @@ __webpack_require__.r(__webpack_exports__);
           metadata: {
     icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4756))).default(props)),(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8673))).default(props))],
     apple: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 5506))).default(props))],
-    openGraph: [],
-    twitter: [],
+    openGraph: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 5693))).default(props))],
+    twitter: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6768))).default(props))],
     manifest: undefined
   }
         }]
@@ -334,8 +334,8 @@ __webpack_require__.r(__webpack_exports__);
           metadata: {
     icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4756))).default(props)),(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8673))).default(props))],
     apple: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 5506))).default(props))],
-    openGraph: [],
-    twitter: [],
+    openGraph: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 5693))).default(props))],
+    twitter: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6768))).default(props))],
     manifest: undefined
   }
         }
@@ -379,15 +379,15 @@ Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_
 
 /***/ }),
 
-/***/ 8627:
+/***/ 7156:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 7649, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 1591));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9977));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 1936));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 7977, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6612));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 1936));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9977));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6067))
 
 /***/ }),
@@ -733,6 +733,7 @@ function Logo({ fill ="black"  }) {
 // import MobileMenu from './mobile-menu'
 function Header() {
     const [top, setTop] = (0,react_.useState)(true);
+    const [isActive, setIsActive] = (0,react_.useState)(false);
     // detect whether user has scrolled the page down by 10px
     const scrollHandler = ()=>{
         window.pageYOffset > 10 ? setTop(false) : setTop(true);
@@ -745,147 +746,169 @@ function Header() {
         top
     ]);
     return /*#__PURE__*/ jsx_runtime_.jsx("header", {
-        className: `fixed w-full z-30 md:bg-opacity-90 transition duration-300 ease-in-out ${!top ? "bg-white backdrop-blur-sm shadow-lg" : ""}`,
+        className: `fixed w-full px-1 md:px-16 z-30 md:bg-opacity-90 transition duration-300 ease-in-out ${!top ? "bg-white backdrop-blur-sm shadow-lg" : ""}`,
         style: {
             zIndex: 9999
         },
         children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
-            className: " mx-auto px-5 sm:px-6",
+            className: " mx-auto ",
             children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                 className: "flex items-center justify-between h-16 md:h-20",
                 children: [
-                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)((link_default()), {
-                        href: "/",
-                        className: " flex items-start",
+                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                        className: "flex items-center",
                         children: [
-                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("svg", {
-                                width: "40",
-                                height: "40",
-                                viewBox: "0 0 12200 12200",
-                                version: "1.1",
-                                style: {
-                                    fillRule: "evenodd",
-                                    clipRule: "evenodd",
-                                    strokeLinejoin: "round",
-                                    strokeMiterlimit: 2
-                                },
+                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)((link_default()), {
+                                href: "/",
+                                className: " flex items-start",
                                 children: [
-                                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("g", {
-                                        transform: "matrix(4.16667,0,0,4.16667,0,0)",
+                                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("svg", {
+                                        width: "40",
+                                        height: "40",
+                                        viewBox: "0 0 12200 12200",
+                                        version: "1.1",
+                                        style: {
+                                            fillRule: "evenodd",
+                                            clipRule: "evenodd",
+                                            strokeLinejoin: "round",
+                                            strokeMiterlimit: 2
+                                        },
                                         children: [
-                                            /*#__PURE__*/ jsx_runtime_.jsx("g", {
-                                                transform: "matrix(1.84249,0,0,1.84249,-1233.19,-635.285)",
-                                                children: /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                                                    d: "M1230.23,1350.46L1463.89,1485.36L1763.52,1312.37L1763.52,1253.65L1463.89,1426.65L1331.93,1350.46L1895.48,1025.09L1895.48,1388.56L1463.89,1637.74L1032.29,1388.56L1032.29,1312.37L1829.5,852.099L1895.48,890.191L1895.48,966.378L1230.23,1350.46Z",
-                                                    style: {
-                                                        fill: "url(#_Linear1)"
-                                                    }
-                                                })
+                                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("g", {
+                                                transform: "matrix(4.16667,0,0,4.16667,0,0)",
+                                                children: [
+                                                    /*#__PURE__*/ jsx_runtime_.jsx("g", {
+                                                        transform: "matrix(1.84249,0,0,1.84249,-1233.19,-635.285)",
+                                                        children: /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                                                            d: "M1230.23,1350.46L1463.89,1485.36L1763.52,1312.37L1763.52,1253.65L1463.89,1426.65L1331.93,1350.46L1895.48,1025.09L1895.48,1388.56L1463.89,1637.74L1032.29,1388.56L1032.29,1312.37L1829.5,852.099L1895.48,890.191L1895.48,966.378L1230.23,1350.46Z",
+                                                            style: {
+                                                                fill: "url(#_Linear1)"
+                                                            }
+                                                        })
+                                                    }),
+                                                    /*#__PURE__*/ jsx_runtime_.jsx("g", {
+                                                        transform: "matrix(1.84249,0,0,1.84249,-1233.19,-635.285)",
+                                                        children: /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                                                            d: "M1164.25,966.378L1164.25,1025.09L1646.69,746.555L1778.65,822.74L1032.29,1253.65L1032.29,890.191L1463.89,641.009L1595.85,717.196L1164.25,966.378Z",
+                                                            style: {
+                                                                fill: "url(#_Linear2)"
+                                                            }
+                                                        })
+                                                    })
+                                                ]
                                             }),
-                                            /*#__PURE__*/ jsx_runtime_.jsx("g", {
-                                                transform: "matrix(1.84249,0,0,1.84249,-1233.19,-635.285)",
-                                                children: /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                                                    d: "M1164.25,966.378L1164.25,1025.09L1646.69,746.555L1778.65,822.74L1032.29,1253.65L1032.29,890.191L1463.89,641.009L1595.85,717.196L1164.25,966.378Z",
-                                                    style: {
-                                                        fill: "url(#_Linear2)"
-                                                    }
-                                                })
+                                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("defs", {
+                                                children: [
+                                                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("linearGradient", {
+                                                        id: "_Linear1",
+                                                        x1: "0",
+                                                        y1: "0",
+                                                        x2: "1",
+                                                        y2: "0",
+                                                        gradientUnits: "userSpaceOnUse",
+                                                        gradientTransform: "matrix(1750.61,-1082.26,1082.26,1750.61,840.808,1630.12)",
+                                                        children: [
+                                                            /*#__PURE__*/ jsx_runtime_.jsx("stop", {
+                                                                offset: "0",
+                                                                style: {
+                                                                    stopColor: "black",
+                                                                    stopOpacity: 1
+                                                                }
+                                                            }),
+                                                            /*#__PURE__*/ jsx_runtime_.jsx("stop", {
+                                                                offset: "1",
+                                                                style: {
+                                                                    stopColor: "rgb(79,133,127)",
+                                                                    stopOpacity: 1
+                                                                }
+                                                            })
+                                                        ]
+                                                    }),
+                                                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("linearGradient", {
+                                                        id: "_Linear2",
+                                                        x1: "0",
+                                                        y1: "0",
+                                                        x2: "1",
+                                                        y2: "0",
+                                                        gradientUnits: "userSpaceOnUse",
+                                                        gradientTransform: "matrix(1750.61,-1082.26,1082.26,1750.61,691.553,1388.69)",
+                                                        children: [
+                                                            /*#__PURE__*/ jsx_runtime_.jsx("stop", {
+                                                                offset: "0",
+                                                                style: {
+                                                                    stopColor: "black",
+                                                                    stopOpacity: 1
+                                                                }
+                                                            }),
+                                                            /*#__PURE__*/ jsx_runtime_.jsx("stop", {
+                                                                offset: "1",
+                                                                style: {
+                                                                    stopColor: "rgb(0,25,54)",
+                                                                    stopOpacity: 1
+                                                                }
+                                                            })
+                                                        ]
+                                                    })
+                                                ]
                                             })
                                         ]
                                     }),
-                                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("defs", {
-                                        children: [
-                                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("linearGradient", {
-                                                id: "_Linear1",
-                                                x1: "0",
-                                                y1: "0",
-                                                x2: "1",
-                                                y2: "0",
-                                                gradientUnits: "userSpaceOnUse",
-                                                gradientTransform: "matrix(1750.61,-1082.26,1082.26,1750.61,840.808,1630.12)",
+                                    /*#__PURE__*/ jsx_runtime_.jsx("svg", {
+                                        width: "120",
+                                        height: "40",
+                                        viewBox: "0 0 300 100",
+                                        version: "1.1",
+                                        style: {
+                                            fillRule: "evenodd",
+                                            clipRule: "evenodd",
+                                            strokeLinejoin: "round",
+                                            strokeMiterlimit: 2
+                                        },
+                                        children: /*#__PURE__*/ jsx_runtime_.jsx("g", {
+                                            fill: "black",
+                                            transform: "matrix(1,0,0,1,20.0316,-1.12926)",
+                                            children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("text", {
+                                                x: "11.941px",
+                                                y: "68.911px",
+                                                style: {
+                                                    fontFamily: "'AvenirNext-Bold', 'Avenir Next', sans-serif",
+                                                    fontWeight: 700,
+                                                    fontSize: "68.921px"
+                                                },
                                                 children: [
-                                                    /*#__PURE__*/ jsx_runtime_.jsx("stop", {
-                                                        offset: "0",
-                                                        style: {
-                                                            stopColor: "black",
-                                                            stopOpacity: 1
-                                                        }
-                                                    }),
-                                                    /*#__PURE__*/ jsx_runtime_.jsx("stop", {
-                                                        offset: "1",
-                                                        style: {
-                                                            stopColor: "rgb(79,133,127)",
-                                                            stopOpacity: 1
-                                                        }
-                                                    })
-                                                ]
-                                            }),
-                                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("linearGradient", {
-                                                id: "_Linear2",
-                                                x1: "0",
-                                                y1: "0",
-                                                x2: "1",
-                                                y2: "0",
-                                                gradientUnits: "userSpaceOnUse",
-                                                gradientTransform: "matrix(1750.61,-1082.26,1082.26,1750.61,691.553,1388.69)",
-                                                children: [
-                                                    /*#__PURE__*/ jsx_runtime_.jsx("stop", {
-                                                        offset: "0",
-                                                        style: {
-                                                            stopColor: "black",
-                                                            stopOpacity: 1
-                                                        }
-                                                    }),
-                                                    /*#__PURE__*/ jsx_runtime_.jsx("stop", {
-                                                        offset: "1",
-                                                        style: {
-                                                            stopColor: "rgb(0,25,54)",
-                                                            stopOpacity: 1
-                                                        }
+                                                    "G",
+                                                    /*#__PURE__*/ jsx_runtime_.jsx("tspan", {
+                                                        x: "67.009px 112.635px 140.341px 183.486px 206.092px ",
+                                                        y: "68.911px 68.911px 68.911px 68.911px 68.911px",
+                                                        children: "otely"
                                                     })
                                                 ]
                                             })
-                                        ]
+                                        })
                                     })
                                 ]
                             }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("svg", {
-                                width: "120",
-                                height: "40",
-                                viewBox: "0 0 300 100",
-                                version: "1.1",
-                                style: {
-                                    fillRule: "evenodd",
-                                    clipRule: "evenodd",
-                                    strokeLinejoin: "round",
-                                    strokeMiterlimit: 2
-                                },
-                                children: /*#__PURE__*/ jsx_runtime_.jsx("g", {
-                                    fill: "black",
-                                    transform: "matrix(1,0,0,1,20.0316,-1.12926)",
-                                    children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("text", {
-                                        x: "11.941px",
-                                        y: "68.911px",
-                                        style: {
-                                            fontFamily: "'AvenirNext-Bold', 'Avenir Next', sans-serif",
-                                            fontWeight: 700,
-                                            fontSize: "68.921px"
-                                        },
-                                        children: [
-                                            "G",
-                                            /*#__PURE__*/ jsx_runtime_.jsx("tspan", {
-                                                x: "67.009px 112.635px 140.341px 183.486px 206.092px ",
-                                                y: "68.911px 68.911px 68.911px 68.911px 68.911px",
-                                                children: "otely"
-                                            })
-                                        ]
-                                    })
-                                })
+                            /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                                className: "mx-1",
+                                children: "|"
+                            }),
+                            /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                                className: "mx-1 text-sm font-extralight",
+                                children: "Powered by CW1"
+                            }),
+                            /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                                className: "mx-1 hidden md:flex",
+                                children: "\xb7"
+                            }),
+                            /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                                href: "https://blog.gotely.com",
+                                className: "hidden md:flex mx-1 text-sm font-medium cursor-pointer hover:underline",
+                                children: "Knowlege base"
                             })
                         ]
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx("nav", {
-                        className: " md:flex md:grow",
+                        className: "hidden md:flex md:grow",
                         children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("ul", {
                             className: "flex grow justify-end flex-wrap items-center",
                             children: [
@@ -931,6 +954,116 @@ function Header() {
                                 })
                             ]
                         })
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                        className: "relative pe-4 pointer md:hidden",
+                        children: [
+                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("svg", {
+                                width: "18",
+                                height: "10",
+                                viewBox: "0 0 18 10",
+                                fill: "none",
+                                xmlns: "http://www.w3.org/2000/svg",
+                                onClick: ()=>setIsActive(true),
+                                children: [
+                                    /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                                        d: "M0.75 0.5H17.25",
+                                        stroke: "#242424",
+                                        "stroke-miterlimit": "10",
+                                        "stroke-linecap": "round"
+                                    }),
+                                    /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                                        d: "M0.75 5H17.25",
+                                        stroke: "#242424",
+                                        "stroke-miterlimit": "10",
+                                        "stroke-linecap": "round"
+                                    }),
+                                    /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                                        d: "M0.75 9.5H17.25",
+                                        stroke: "#242424",
+                                        "stroke-miterlimit": "10",
+                                        "stroke-linecap": "round"
+                                    })
+                                ]
+                            }),
+                            isActive && /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                className: "bg-white absolute top-4 p-4 rounded-lg shadow-lg right-0 w-72 border divide-y",
+                                children: [
+                                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("a", {
+                                        href: "https://app.gotely.com",
+                                        className: "flex  items-center justify-end hover:underline mb-2 ",
+                                        children: [
+                                            /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                                                children: "Sign in "
+                                            }),
+                                            /*#__PURE__*/ jsx_runtime_.jsx("svg", {
+                                                className: "w-3 h-3 fill-current text-gray-400 shrink-0 ml-2 -mr-1",
+                                                viewBox: "0 0 12 12",
+                                                xmlns: "http://www.w3.org/2000/svg",
+                                                children: /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                                                    d: "M11.707 5.293L7 .586 5.586 2l3 3H0v2h8.586l-3 3L7 11.414l4.707-4.707a1 1 0 000-1.414z",
+                                                    fillRule: "nonzero"
+                                                })
+                                            })
+                                        ]
+                                    }),
+                                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("a", {
+                                        href: "https://outlook.office365.com/owa/calendar/CW11@nortb.com/bookings/s/6jgIL5PSM0yONHlJChN-kQ2",
+                                        className: "flex items-center justify-end pt-2",
+                                        children: [
+                                            /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                                                children: "Book Demo "
+                                            }),
+                                            /*#__PURE__*/ jsx_runtime_.jsx("svg", {
+                                                className: "w-3 h-3 fill-current text-gray-400 shrink-0 ml-2 -mr-1",
+                                                viewBox: "0 0 12 12",
+                                                xmlns: "http://www.w3.org/2000/svg",
+                                                children: /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                                                    d: "M11.707 5.293L7 .586 5.586 2l3 3H0v2h8.586l-3 3L7 11.414l4.707-4.707a1 1 0 000-1.414z",
+                                                    fillRule: "nonzero"
+                                                })
+                                            })
+                                        ]
+                                    }),
+                                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)((link_default()), {
+                                        href: "https://outlook.office365.com/owa/calendar/CW11@nortb.com/bookings/s/6jgIL5PSM0yONHlJChN-kQ2",
+                                        className: "flex items-center justify-end pt-2",
+                                        children: [
+                                            /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                                                children: "Knowlege base "
+                                            }),
+                                            /*#__PURE__*/ jsx_runtime_.jsx("svg", {
+                                                className: "w-3 h-3 fill-current text-gray-400 shrink-0 ml-2 -mr-1",
+                                                viewBox: "0 0 12 12",
+                                                xmlns: "http://www.w3.org/2000/svg",
+                                                children: /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                                                    d: "M11.707 5.293L7 .586 5.586 2l3 3H0v2h8.586l-3 3L7 11.414l4.707-4.707a1 1 0 000-1.414z",
+                                                    fillRule: "nonzero"
+                                                })
+                                            })
+                                        ]
+                                    }),
+                                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("span", {
+                                        onClick: ()=>setIsActive(false),
+                                        className: "flex items-center justify-end pt-2",
+                                        children: [
+                                            /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                                                children: "close "
+                                            }),
+                                            /*#__PURE__*/ jsx_runtime_.jsx("svg", {
+                                                className: "w-3 h-3 fill-current text-gray-400 shrink-0 ml-2 -mr-1",
+                                                viewBox: "0 0 12 12",
+                                                xmlns: "http://www.w3.org/2000/svg",
+                                                children: /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                                                    d: "M11.707 5.293L7 .586 5.586 2l3 3H0v2h8.586l-3 3L7 11.414l4.707-4.707a1 1 0 000-1.414z",
+                                                    fillRule: "nonzero"
+                                                })
+                                            })
+                                        ]
+                                    })
+                                ]
+                            })
+                        ]
                     })
                 ]
             })
@@ -975,23 +1108,59 @@ var globals = __webpack_require__(3096);
 const metadata = {
     title: "Gotely | Strategy generation by AI and CW1 experts.",
     description: "Unlock smart AI-driven business strategies with our app. Boost growth, optimize resources & unlock potential. Take your business to the next level, today!",
-    icons: {
-        icon: "./favicon.ico"
-    },
+    metadataBase: new URL("https://blog.gotely.com"),
+    generator: "Next.js",
+    applicationName: "Gotely",
+    referrer: "origin-when-cross-origin",
+    keywords: [
+        "Gotely",
+        "CW1",
+        "Business Strategy"
+    ],
+    authors: [
+        {
+            name: "Pedro Stark"
+        },
+        {
+            name: "Mia Espa\xf1ola"
+        },
+        {
+            name: "CW1"
+        }
+    ],
+    creator: "CW1 Inc",
+    publisher: "CW1 Inc",
     openGraph: {
         title: "Gotely | Strategy generation by AI and CW1 experts.",
         description: "Unlock smart AI-driven business strategies with our app. Boost growth, optimize resources & unlock potential. Take your business to the next level, today!",
-        url: "https://wwww.gotely.comg",
-        siteName: "Gotely.com",
-        images: [
-            {
-                url: "https://i.ibb.co/XCLc423/marketing.jpg",
-                width: 800,
-                height: 600
-            }
-        ],
-        locale: "en-US",
-        type: "website"
+        type: "article",
+        publishedTime: "2023-01-01T00:00:00.000Z",
+        authors: [
+            "CW1"
+        ]
+    },
+    robots: {
+        index: false,
+        follow: true,
+        nocache: true,
+        googleBot: {
+            index: true,
+            follow: false,
+            noimageindex: true,
+            "max-video-preview": -1,
+            "max-image-preview": "large",
+            "max-snippet": -1
+        }
+    },
+    twitter: {
+        card: "summary_large_image",
+        title: "Gotely | Strategy generation by AI and CW1 experts.",
+        description: "Unlock smart AI-driven business strategies with our app. Boost growth, optimize resources & unlock potential. Take your business to the next level, today!"
+    },
+    viewport: {
+        width: "device-width",
+        initialScale: 1,
+        maximumScale: 1
     }
 };
 function RootLayout({ children  }) {
@@ -1439,7 +1608,7 @@ var react_shared_subset = __webpack_require__(7887);
 
 function Grizzly() {
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("section", {
-        className: "bg-white w-full px-3 md:px-9  flex flex-wrap md:pb-24 md:pt-12",
+        className: "bg-white w-full px-3 md:px-16  flex flex-wrap md:pb-24 md:pt-12",
         children: [
             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                 className: "w-full md:w-1/4 pt-8 md:pt-0",
@@ -1606,7 +1775,7 @@ var image_default = /*#__PURE__*/__webpack_require__.n(next_image);
 function Hero() {
     return /*#__PURE__*/ jsx_runtime_.jsx("section", {
         children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("section", {
-            className: "relative w-full md:h-[75vh] h-[80vh]",
+            className: "relative w-full md:h-[75vh] h-[85vh]",
             children: [
                 /*#__PURE__*/ jsx_runtime_.jsx("div", {
                     className: " w-full",
@@ -1625,14 +1794,14 @@ function Hero() {
                     })
                 }),
                 /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                    className: " absolute w-full my-auto mx-auto px-4  z-50   px-3 md:px-9",
+                    className: " absolute w-full my-auto mx-auto px-4  z-50   px-3 md:px-16",
                     children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
                         className: "pt-20 pb-12 md:pt-40 md:pb-20 ",
                         children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                             className: "text-start my-auto",
                             children: [
                                 /*#__PURE__*/ jsx_runtime_.jsx("h1", {
-                                    className: "text-sm md:text-lg",
+                                    className: "text-xs md:text-sm",
                                     children: "AI powered Business Development Platform "
                                 }),
                                 /*#__PURE__*/ (0,jsx_runtime_.jsxs)("h2", {
@@ -2535,6 +2704,54 @@ __webpack_require__.r(__webpack_exports__);
     return [{
       ...imageData,
       url: imageUrl + "?e355303fac37a264",
+    }]
+  });
+
+/***/ }),
+
+/***/ 5693:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var next_dist_lib_metadata_get_metadata_route__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(3180);
+/* harmony import */ var next_dist_lib_metadata_get_metadata_route__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(next_dist_lib_metadata_get_metadata_route__WEBPACK_IMPORTED_MODULE_0__);
+  
+
+  /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((props) => {
+    const imageData = {"type":"image/jpeg","width":800,"height":500,"alt":"Find the answers you need about Gotely.com and what gotely has to offer to you besides business strategy."}
+    const imageUrl = (0,next_dist_lib_metadata_get_metadata_route__WEBPACK_IMPORTED_MODULE_0__.fillMetadataSegment)(".", props.params, "opengraph-image.jpg")
+
+    return [{
+      ...imageData,
+      url: imageUrl + "?318fc1b4fd85f64e",
+    }]
+  });
+
+/***/ }),
+
+/***/ 6768:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var next_dist_lib_metadata_get_metadata_route__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(3180);
+/* harmony import */ var next_dist_lib_metadata_get_metadata_route__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(next_dist_lib_metadata_get_metadata_route__WEBPACK_IMPORTED_MODULE_0__);
+  
+
+  /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((props) => {
+    const imageData = {"type":"image/jpeg","width":800,"height":500}
+    const imageUrl = (0,next_dist_lib_metadata_get_metadata_route__WEBPACK_IMPORTED_MODULE_0__.fillMetadataSegment)(".", props.params, "twitter-image.jpg")
+
+    return [{
+      ...imageData,
+      url: imageUrl + "?318fc1b4fd85f64e",
     }]
   });
 
