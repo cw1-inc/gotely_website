@@ -60,6 +60,7 @@ export default function Header() {
                         <span className="mx-1">|</span>
                         <span className="mx-1 text-sm font-extralight">Powered by CW1</span>
                         {/* <span className="mx-4 hidden md:flex"></span>
+                        
                         <span className="mx-1 hidden md:flex text-sm font-medium cursor-pointer hover:underline">Pricing</span> */}
                         <span className="mx-1 hidden md:flex">·</span>
                         <a href="https://blog.gotely.com" className="hidden md:flex mx-1 text-sm font-medium cursor-pointer hover:underline">Knowlege base</a>
