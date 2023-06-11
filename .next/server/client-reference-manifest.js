@@ -230,6 +230,58 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
+    "(app-client)/./components/partner/form.jsx": {
+      "*": {
+        "id": "(sc_client)/./components/partner/form.jsx",
+        "name": "*",
+        "chunks": [
+          "app/partner/page:static/chunks/app/partner/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./components/partner/form.jsx",
+        "name": "",
+        "chunks": [
+          "app/partner/page:static/chunks/app/partner/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./components/partner/form.jsx",
+        "name": "default",
+        "chunks": [
+          "app/partner/page:static/chunks/app/partner/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/link.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "name": "*",
+        "chunks": [
+          "app/partner/page:static/chunks/app/partner/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "name": "",
+        "chunks": [
+          "app/partner/page:static/chunks/app/partner/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "name": "default",
+        "chunks": [
+          "app/partner/page:static/chunks/app/partner/page.js"
+        ],
+        "async": false
+      }
+    },
     "(app-client)/./app/marketing.jpg": {
       "*": {
         "id": "(sc_client)/./app/marketing.jpg",
@@ -294,352 +346,6 @@ self.__RSC_MANIFEST={
         "name": "initScriptLoader",
         "chunks": [
           "app/layout:static/chunks/app/layout.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./public/images/avatar.jpg": {
-      "*": {
-        "id": "(sc_client)/./public/images/avatar.jpg",
-        "name": "*",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./public/images/avatar.jpg",
-        "name": "",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./public/images/avatar.jpg",
-        "name": "default",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./public/images/features-element.png": {
-      "*": {
-        "id": "(sc_client)/./public/images/features-element.png",
-        "name": "*",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./public/images/features-element.png",
-        "name": "",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./public/images/features-element.png",
-        "name": "default",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./public/images/p1.png": {
-      "*": {
-        "id": "(sc_client)/./public/images/p1.png",
-        "name": "*",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./public/images/p1.png",
-        "name": "",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./public/images/p1.png",
-        "name": "default",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./public/images/p2.png": {
-      "*": {
-        "id": "(sc_client)/./public/images/p2.png",
-        "name": "*",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./public/images/p2.png",
-        "name": "",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./public/images/p2.png",
-        "name": "default",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./public/images/p3.png": {
-      "*": {
-        "id": "(sc_client)/./public/images/p3.png",
-        "name": "*",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./public/images/p3.png",
-        "name": "",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./public/images/p3.png",
-        "name": "default",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./public/images/pc1.png": {
-      "*": {
-        "id": "(sc_client)/./public/images/pc1.png",
-        "name": "*",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./public/images/pc1.png",
-        "name": "",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./public/images/pc1.png",
-        "name": "default",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./public/zzz.png": {
-      "*": {
-        "id": "(sc_client)/./public/zzz.png",
-        "name": "*",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./public/zzz.png",
-        "name": "",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./public/zzz.png",
-        "name": "default",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./components/features.jsx": {
-      "*": {
-        "id": "(sc_client)/./components/features.jsx",
-        "name": "*",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./components/features.jsx",
-        "name": "",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./components/features.jsx",
-        "name": "default",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./components/ui/header.jsx": {
-      "*": {
-        "id": "(sc_client)/./components/ui/header.jsx",
-        "name": "*",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./components/ui/header.jsx",
-        "name": "",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./components/ui/header.jsx",
-        "name": "default",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./node_modules/next/dist/client/image.js": {
-      "*": {
-        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
-        "name": "*",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
-        "name": "",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
-        "name": "default",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./node_modules/next/dist/client/link.js": {
-      "*": {
-        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
-        "name": "*",
-        "chunks": [
-          "app/partner/page:static/chunks/app/partner/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
-        "name": "",
-        "chunks": [
-          "app/partner/page:static/chunks/app/partner/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
-        "name": "default",
-        "chunks": [
-          "app/partner/page:static/chunks/app/partner/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./node_modules/next/dist/shared/lib/head.js": {
-      "*": {
-        "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
-        "name": "*",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
-        "name": "",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
-        "name": "default",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      },
-      "defaultHead": {
-        "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
-        "name": "defaultHead",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./components/partner/form.jsx": {
-      "*": {
-        "id": "(sc_client)/./components/partner/form.jsx",
-        "name": "*",
-        "chunks": [
-          "app/partner/page:static/chunks/app/partner/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./components/partner/form.jsx",
-        "name": "",
-        "chunks": [
-          "app/partner/page:static/chunks/app/partner/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./components/partner/form.jsx",
-        "name": "default",
-        "chunks": [
-          "app/partner/page:static/chunks/app/partner/page.js"
         ],
         "async": false
       }
@@ -1324,6 +1030,78 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
+    "/Users/pedrospecter/Downloads/work/gotely/website/components/partner/form.jsx": {
+      "id": "(app-client)/./components/partner/form.jsx",
+      "name": "*",
+      "chunks": [
+        "app/partner/page:static/chunks/app/partner/page.js"
+      ],
+      "async": false
+    },
+    "/Users/pedrospecter/Downloads/work/gotely/website/components/partner/form.jsx#": {
+      "id": "(app-client)/./components/partner/form.jsx",
+      "name": "",
+      "chunks": [
+        "app/partner/page:static/chunks/app/partner/page.js"
+      ],
+      "async": false
+    },
+    "/Users/pedrospecter/Downloads/work/gotely/website/components/partner/form.jsx#default": {
+      "id": "(app-client)/./components/partner/form.jsx",
+      "name": "default",
+      "chunks": [
+        "app/partner/page:static/chunks/app/partner/page.js"
+      ],
+      "async": false
+    },
+    "/Users/pedrospecter/Downloads/work/gotely/website/node_modules/next/dist/client/link.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "*",
+      "chunks": [
+        "app/partner/page:static/chunks/app/partner/page.js"
+      ],
+      "async": false
+    },
+    "/Users/pedrospecter/Downloads/work/gotely/website/node_modules/next/dist/esm/client/link.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "*",
+      "chunks": [
+        "app/partner/page:static/chunks/app/partner/page.js"
+      ],
+      "async": false
+    },
+    "/Users/pedrospecter/Downloads/work/gotely/website/node_modules/next/dist/client/link.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "",
+      "chunks": [
+        "app/partner/page:static/chunks/app/partner/page.js"
+      ],
+      "async": false
+    },
+    "/Users/pedrospecter/Downloads/work/gotely/website/node_modules/next/dist/esm/client/link.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "",
+      "chunks": [
+        "app/partner/page:static/chunks/app/partner/page.js"
+      ],
+      "async": false
+    },
+    "/Users/pedrospecter/Downloads/work/gotely/website/node_modules/next/dist/client/link.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "default",
+      "chunks": [
+        "app/partner/page:static/chunks/app/partner/page.js"
+      ],
+      "async": false
+    },
+    "/Users/pedrospecter/Downloads/work/gotely/website/node_modules/next/dist/esm/client/link.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "default",
+      "chunks": [
+        "app/partner/page:static/chunks/app/partner/page.js"
+      ],
+      "async": false
+    },
     "/Users/pedrospecter/Downloads/work/gotely/website/app/globals.scss#": {
       "id": "null",
       "name": "default",
@@ -1439,406 +1217,6 @@ self.__RSC_MANIFEST={
       "name": "initScriptLoader",
       "chunks": [
         "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/pedrospecter/Downloads/work/gotely/website/public/images/avatar.jpg": {
-      "id": "(app-client)/./public/images/avatar.jpg",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/pedrospecter/Downloads/work/gotely/website/public/images/avatar.jpg#": {
-      "id": "(app-client)/./public/images/avatar.jpg",
-      "name": "",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/pedrospecter/Downloads/work/gotely/website/public/images/avatar.jpg#default": {
-      "id": "(app-client)/./public/images/avatar.jpg",
-      "name": "default",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/pedrospecter/Downloads/work/gotely/website/public/images/features-element.png": {
-      "id": "(app-client)/./public/images/features-element.png",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/pedrospecter/Downloads/work/gotely/website/public/images/features-element.png#": {
-      "id": "(app-client)/./public/images/features-element.png",
-      "name": "",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/pedrospecter/Downloads/work/gotely/website/public/images/features-element.png#default": {
-      "id": "(app-client)/./public/images/features-element.png",
-      "name": "default",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/pedrospecter/Downloads/work/gotely/website/public/images/p1.png": {
-      "id": "(app-client)/./public/images/p1.png",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/pedrospecter/Downloads/work/gotely/website/public/images/p1.png#": {
-      "id": "(app-client)/./public/images/p1.png",
-      "name": "",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/pedrospecter/Downloads/work/gotely/website/public/images/p1.png#default": {
-      "id": "(app-client)/./public/images/p1.png",
-      "name": "default",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/pedrospecter/Downloads/work/gotely/website/public/images/p2.png": {
-      "id": "(app-client)/./public/images/p2.png",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/pedrospecter/Downloads/work/gotely/website/public/images/p2.png#": {
-      "id": "(app-client)/./public/images/p2.png",
-      "name": "",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/pedrospecter/Downloads/work/gotely/website/public/images/p2.png#default": {
-      "id": "(app-client)/./public/images/p2.png",
-      "name": "default",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/pedrospecter/Downloads/work/gotely/website/public/images/p3.png": {
-      "id": "(app-client)/./public/images/p3.png",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/pedrospecter/Downloads/work/gotely/website/public/images/p3.png#": {
-      "id": "(app-client)/./public/images/p3.png",
-      "name": "",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/pedrospecter/Downloads/work/gotely/website/public/images/p3.png#default": {
-      "id": "(app-client)/./public/images/p3.png",
-      "name": "default",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/pedrospecter/Downloads/work/gotely/website/public/images/pc1.png": {
-      "id": "(app-client)/./public/images/pc1.png",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/pedrospecter/Downloads/work/gotely/website/public/images/pc1.png#": {
-      "id": "(app-client)/./public/images/pc1.png",
-      "name": "",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/pedrospecter/Downloads/work/gotely/website/public/images/pc1.png#default": {
-      "id": "(app-client)/./public/images/pc1.png",
-      "name": "default",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/pedrospecter/Downloads/work/gotely/website/public/zzz.png": {
-      "id": "(app-client)/./public/zzz.png",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/pedrospecter/Downloads/work/gotely/website/public/zzz.png#": {
-      "id": "(app-client)/./public/zzz.png",
-      "name": "",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/pedrospecter/Downloads/work/gotely/website/public/zzz.png#default": {
-      "id": "(app-client)/./public/zzz.png",
-      "name": "default",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/pedrospecter/Downloads/work/gotely/website/components/features.jsx": {
-      "id": "(app-client)/./components/features.jsx",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/pedrospecter/Downloads/work/gotely/website/components/features.jsx#": {
-      "id": "(app-client)/./components/features.jsx",
-      "name": "",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/pedrospecter/Downloads/work/gotely/website/components/features.jsx#default": {
-      "id": "(app-client)/./components/features.jsx",
-      "name": "default",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/pedrospecter/Downloads/work/gotely/website/components/ui/header.jsx": {
-      "id": "(app-client)/./components/ui/header.jsx",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/pedrospecter/Downloads/work/gotely/website/components/ui/header.jsx#": {
-      "id": "(app-client)/./components/ui/header.jsx",
-      "name": "",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/pedrospecter/Downloads/work/gotely/website/components/ui/header.jsx#default": {
-      "id": "(app-client)/./components/ui/header.jsx",
-      "name": "default",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/pedrospecter/Downloads/work/gotely/website/node_modules/next/dist/client/image.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/image.js",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/pedrospecter/Downloads/work/gotely/website/node_modules/next/dist/esm/client/image.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/image.js",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/pedrospecter/Downloads/work/gotely/website/node_modules/next/dist/client/image.js#": {
-      "id": "(app-client)/./node_modules/next/dist/client/image.js",
-      "name": "",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/pedrospecter/Downloads/work/gotely/website/node_modules/next/dist/esm/client/image.js#": {
-      "id": "(app-client)/./node_modules/next/dist/client/image.js",
-      "name": "",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/pedrospecter/Downloads/work/gotely/website/node_modules/next/dist/client/image.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/client/image.js",
-      "name": "default",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/pedrospecter/Downloads/work/gotely/website/node_modules/next/dist/esm/client/image.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/client/image.js",
-      "name": "default",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/pedrospecter/Downloads/work/gotely/website/node_modules/next/dist/client/link.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "*",
-      "chunks": [
-        "app/partner/page:static/chunks/app/partner/page.js"
-      ],
-      "async": false
-    },
-    "/Users/pedrospecter/Downloads/work/gotely/website/node_modules/next/dist/esm/client/link.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "*",
-      "chunks": [
-        "app/partner/page:static/chunks/app/partner/page.js"
-      ],
-      "async": false
-    },
-    "/Users/pedrospecter/Downloads/work/gotely/website/node_modules/next/dist/client/link.js#": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "",
-      "chunks": [
-        "app/partner/page:static/chunks/app/partner/page.js"
-      ],
-      "async": false
-    },
-    "/Users/pedrospecter/Downloads/work/gotely/website/node_modules/next/dist/esm/client/link.js#": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "",
-      "chunks": [
-        "app/partner/page:static/chunks/app/partner/page.js"
-      ],
-      "async": false
-    },
-    "/Users/pedrospecter/Downloads/work/gotely/website/node_modules/next/dist/client/link.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "default",
-      "chunks": [
-        "app/partner/page:static/chunks/app/partner/page.js"
-      ],
-      "async": false
-    },
-    "/Users/pedrospecter/Downloads/work/gotely/website/node_modules/next/dist/esm/client/link.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "default",
-      "chunks": [
-        "app/partner/page:static/chunks/app/partner/page.js"
-      ],
-      "async": false
-    },
-    "/Users/pedrospecter/Downloads/work/gotely/website/node_modules/next/dist/shared/lib/head.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/pedrospecter/Downloads/work/gotely/website/node_modules/next/dist/esm/shared/lib/head.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/pedrospecter/Downloads/work/gotely/website/node_modules/next/dist/shared/lib/head.js#": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/pedrospecter/Downloads/work/gotely/website/node_modules/next/dist/esm/shared/lib/head.js#": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/pedrospecter/Downloads/work/gotely/website/node_modules/next/dist/shared/lib/head.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "default",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/pedrospecter/Downloads/work/gotely/website/node_modules/next/dist/esm/shared/lib/head.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "default",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/pedrospecter/Downloads/work/gotely/website/node_modules/next/dist/shared/lib/head.js#defaultHead": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "defaultHead",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/pedrospecter/Downloads/work/gotely/website/node_modules/next/dist/esm/shared/lib/head.js#defaultHead": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "defaultHead",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/pedrospecter/Downloads/work/gotely/website/components/partner/form.jsx": {
-      "id": "(app-client)/./components/partner/form.jsx",
-      "name": "*",
-      "chunks": [
-        "app/partner/page:static/chunks/app/partner/page.js"
-      ],
-      "async": false
-    },
-    "/Users/pedrospecter/Downloads/work/gotely/website/components/partner/form.jsx#": {
-      "id": "(app-client)/./components/partner/form.jsx",
-      "name": "",
-      "chunks": [
-        "app/partner/page:static/chunks/app/partner/page.js"
-      ],
-      "async": false
-    },
-    "/Users/pedrospecter/Downloads/work/gotely/website/components/partner/form.jsx#default": {
-      "id": "(app-client)/./components/partner/form.jsx",
-      "name": "default",
-      "chunks": [
-        "app/partner/page:static/chunks/app/partner/page.js"
       ],
       "async": false
     }
