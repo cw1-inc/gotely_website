@@ -8,7 +8,7 @@ export default function HeroPartner() {
 
     return (
         <section className="relative w-full md:h-[75vh] h-[80vh] flex items-center justify-center h-full flex-col">
-            <h1 className="text-center text-2xl md:text-5xl font-medium pb-4">Let's Work Together To Do <br />Amazing Things!</h1>
+            <h1 className="text-center text-2xl md:text-5xl font-medium pb-4">Let&apos;s Work Together To Do <br />Amazing Things!</h1>
             <p className="font-light pb-4">Be a part of the change in the world.</p>
             <nav className="">
                 {/* Desktop sign in links */}
