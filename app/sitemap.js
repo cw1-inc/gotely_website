@@ -19,6 +19,14 @@ export default async function sitemap() {
     let a1 = await fetchLinks()
     let a2 = [
         {
+            url: 'https://www.gotely.com',
+            lastModified: new Date(),
+        },
+        {
+            url: 'https://www.gotely.com/partner',
+            lastModified: new Date(),
+        },
+        {
             url: 'https://blog.gotely.com',
             lastModified: new Date(),
         },

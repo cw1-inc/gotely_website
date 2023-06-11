@@ -64,6 +64,7 @@ export default function Header() {
                         <span className="mx-1 hidden md:flex text-sm font-medium cursor-pointer hover:underline">Pricing</span> */}
                         <span className="mx-1 hidden md:flex">·</span>
                         <a href="https://blog.gotely.com" className="hidden md:flex mx-1 text-sm font-medium cursor-pointer hover:underline">Knowlege base</a>
+                     
                     </div>
 
                     {/* Desktop navigation */}
@@ -92,9 +93,9 @@ export default function Header() {
 
                     <div className="relative pe-4 pointer md:hidden">
                         <svg width="18" height="10" viewBox="0 0 18 10" fill="none" xmlns="http://www.w3.org/2000/svg" onClick={() => setIsActive(true)}>
-                            <path d="M0.75 0.5H17.25" stroke="#242424" stroke-miterlimit="10" stroke-linecap="round" />
-                            <path d="M0.75 5H17.25" stroke="#242424" stroke-miterlimit="10" stroke-linecap="round" />
-                            <path d="M0.75 9.5H17.25" stroke="#242424" stroke-miterlimit="10" stroke-linecap="round" />
+                            <path d="M0.75 0.5H17.25" stroke="#242424" strokeMiterlimit="10" strokeLinecap="round" />
+                            <path d="M0.75 5H17.25" stroke="#242424" strokeMiterlimit="10" strokeLinecap="round" />
+                            <path d="M0.75 9.5H17.25" stroke="#242424" strokeMiterlimit="10" strokeLinecap="round" />
                         </svg>
                         {isActive &&
                             <div className="bg-white absolute top-4 p-4 rounded-lg shadow-lg right-0 w-72 border divide-y">
