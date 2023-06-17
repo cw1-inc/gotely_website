@@ -35,8 +35,8 @@ export default function Features() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h1 className="text-4xl mb-4 font-light">More insights, more strategy, <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400 font-light">less time.</span></h1>
-            <p className="text-sm font-light text-gray-600 ">CW1 had already the moto of being fast. Now we are even faster. We are concentrating all business activities within one single platform which is powered and boosted by our own AI model and processor (A10 - Datacenter Frankfurt).</p>
+            <h1 className="md:text-5xl text-3xl mb-4 font-light">More insights, more strategy, <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400 font-light">less time.</span></h1>
+            <p className="text-md font-light text-gray-600 ">CW1 had already the moto of being fast. Now we are even faster. We are concentrating all business activities within one single platform which is powered and boosted by our own AI model and processor (A10 - Datacenter Frankfurt).</p>
           </div>
 
           {/* Section content */}
