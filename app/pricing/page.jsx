@@ -66,7 +66,7 @@ export default function Example() {
                                             <div className="mt-8">
                                                 <div className="rounded-lg shadow-md">
                                                     <a
-                                                        href="#"
+                                                        href="https://app.gotely.com"
                                                         className="block w-full rounded-lg border border-transparent bg-white px-6 py-3 text-center text-base font-medium text-zinc-800 hover:bg-gray-50"
                                                         aria-describedby="tier-hobby"
                                                     >
@@ -122,7 +122,7 @@ export default function Example() {
                                         <div className="mt-10">
                                             <div className="rounded-lg shadow-md">
                                                 <a
-                                                    href="#"
+                                                    href="https://app.gotely.com"
                                                     className="block w-full rounded-lg border border-transparent bg-zinc-600 px-6 py-4 text-center text-xl font-medium leading-6 text-white hover:bg-zinc-700"
                                                     aria-describedby="tier-growth"
                                                 >
