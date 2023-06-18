@@ -24,7 +24,7 @@ export default function Features() {
   }, []) 
 
   return (
-    <section className="relative h-[240vh] md:h-[100vh] md:pb-0" >
+    <section className="relative h-[220vh] md:h-[120vh] md:pb-0" >
 
       {/* Section background (needs .relative class on parent and next sibling elements) */}
       <div className="absolute inset-0  bg-gray-100 pointer-events-none mb-16" aria-hidden="true"></div>
@@ -34,7 +34,7 @@ export default function Features() {
         <div className="pt-12 md:pt-20">
 
           {/* Section header */}
-          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
+          <div className="max-w-3xl mx-auto text-center  md:pb-20">
             <h1 className="md:text-5xl text-3xl mb-4 font-light">More insights, more strategy, <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400 font-light">less time.</span></h1>
             <p className="text-md font-light text-gray-600 ">CW1 had already the moto of being fast. Now we are even faster. We are concentrating all business activities within one single platform which is powered and boosted by our own AI model and processor (A10 - Datacenter Frankfurt).</p>
           </div>

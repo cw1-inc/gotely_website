@@ -50,7 +50,8 @@ export default function Hero() {
                     </a>
                 </div>
                 <div className="rounded-lg order-1 md:order-2">
-                    <img src="https://i.ibb.co/hZ1PFRm/Screenshot-2023-06-17-at-15-36-10.png" alt="Gotely by cw1" with="100%" className="rounded-lg" />
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/b7zLxS-dnBU?modestbranding=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" className="rounded-xl" allowfullscreen></iframe>
+                    {/* <img src="https://i.ibb.co/hZ1PFRm/Screenshot-2023-06-17-at-15-36-10.png" alt="Gotely by cw1" with="100%" className="rounded-lg" /> */}
                 </div>
                 <div className="pt-3 order-3 md:px-12 px-4 divide-y hidden md:block">
                     <div className="py-4">
