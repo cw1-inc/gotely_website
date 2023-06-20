@@ -40,8 +40,8 @@ export default function Newsletter() {
 
               {/* CTA content */}
               <div className="text-center  lg:max-w-xl">
-                <h3 className="h3 text-white mb-2">Join the beta.</h3>
-                <p className="text-gray-300 text-lg mb-6">Join the beta testing of the platfom.</p>
+                <h3 className="h3 text-white mb-2">Join Gotely.</h3>
+                <p className="text-gray-300 text-lg mb-6">Join the platform and enjoy learning with professionals.</p>
 
                 {/* CTA form */}
                 <form className="w-full ">

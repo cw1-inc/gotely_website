@@ -24,7 +24,7 @@ export default function Features() {
   }, []) 
 
   return (
-    <section className="relative h-[220vh] md:h-[120vh] md:pb-0" >
+    <section className="relative h-[220vh] md:h-[110vh] md:pb-0" >
 
       {/* Section background (needs .relative class on parent and next sibling elements) */}
       <div className="absolute inset-0  bg-gray-100 pointer-events-none mb-16" aria-hidden="true"></div>
@@ -46,7 +46,7 @@ export default function Features() {
             <div className="max-w-xl order-2 md:order-1 md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6 md:mt-6" data-aos="fade-right">
               <div className="md:pr-4 lg:pr-12 xl:pr-16 pb-4">
                 <h3 className="text-xl font-light">Powerful suite of tools</h3>
-                <p className="text-md text-gray-600 font-light">Access the knowledge of experts in a faster and cheaper way.</p>
+                <p className="text-md text-gray-600 font-light">Access the knowledge of big-4 experts in a faster and cheaper way.</p>
               </div>
               {/* Tabs buttons */}
               <div className="mb-8 md:mb-0">
@@ -57,7 +57,7 @@ export default function Features() {
                 >
                   <div>
                     <div className="font-medium text-md  tracking-tight mb-1">AI-Powered Idea Validator</div>
-                    <div className="text-gray-600 text-sm font-light">Analyze and discover market demand, benchmarking and competitor analysis, Target market, and execution plan. </div>
+                    <div className="text-gray-600 text-sm font-light">Step-by-step on how to validate an idea up to success, while having professionals reviewing it. </div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
                     <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -71,8 +71,8 @@ export default function Features() {
                   onClick={(e) => { e.preventDefault(); setTab(2); }}
                 >
                   <div>
-                    <div className="font-medium trext-md leading-snug tracking-tight mb-1">Customised Business Development Plans</div>
-                    <div className="text-gray-600 text-sm font-light">Strategies for business growth, risk mitigation, contract negotiation,partnerhsips, sales, and customer support.</div>
+                    <div className="font-medium trext-md leading-snug tracking-tight mb-1">Customised Business Monitor</div>
+                    <div className="text-gray-600 text-sm font-light">Strategise your business within our 8-focal point framework. Let our expert help you growing it and stabilising it.</div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
                     <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -86,8 +86,8 @@ export default function Features() {
                   onClick={(e) => { e.preventDefault(); setTab(3); }}
                 >
                   <div>
-                    <div className="font-medium leading-snug tracking-tight mb-1 text-md">AI-Powered Matchmaking </div>
-                    <div className="text-gray-600 text-sm font-light">Discover potential partnerships or collaborations based on complementary strengths, similarities, or synergies.</div>
+                    <div className="font-medium leading-snug tracking-tight mb-1 text-md">Business maker & Capital Raiser </div>
+                    <div className="text-gray-600 text-sm font-light">With our capital raiser, you will be helped by an expert to prepare your pitch-deck and financials in order to submit to investors. Also we help you finding investors.</div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
                     <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
