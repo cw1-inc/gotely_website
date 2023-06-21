@@ -9,6 +9,7 @@ import Image from 'next/image'
 import FeaturesBg from '@/public/zzz.png'
 import Footer from '@/components/ui/footer'
 import ChatBot from '@/components/chatbot'
+import NewFeatures from '@/components/newFeatures'
 
 
 
@@ -23,6 +24,7 @@ export default function Home() {
       <Header />
       <Hero />
       <Grizzly />
+      <NewFeatures />
 
       <Features />
       <FeaturesBlocks />

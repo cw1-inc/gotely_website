@@ -32,7 +32,7 @@ export default function Hero() {
                             <h2 className="text-5xl md:hidden md:text-8xl py-3 md:py-5 font-light leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out">Grow your idea  <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400"> up to an IPO.</span></h2>
                             <h2 className="hidden md:block text-4xl md:text-7xl py-3 md:py-5 font-light leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out">Grow your idea <br /> {"from 0"} up to   <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400">an IPO.</span></h2>
 
-                            <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">CW1 introduces <b>Gotely</b> <br /> <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400"> For almost free.</span></p>
+                            <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">CW1 introduces <b>Gotely</b> <br /> <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400"> A SaaS/VaaS/EaaS to guide businesses <br/> and entrepreneurs into success .</span></p>
                             <div className="flex items-center" data-aos="zoom-y-out" data-aos-delay="300">
 
                                 <a href="https://app.gotely.com">
