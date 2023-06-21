@@ -8,6 +8,8 @@ import Header from '@/components/ui/header'
 import Image from 'next/image'
 import FeaturesBg from '@/public/zzz.png'
 import Footer from '@/components/ui/footer'
+import ChatBot from '@/components/chatbot'
+
 
 
 
@@ -15,13 +17,15 @@ import Footer from '@/components/ui/footer'
 export default function Home() {
   return (
     <main className="bg-white">
+      
+      
+      
       <Header />
       <Hero />
       <Grizzly />
 
       <Features />
       <FeaturesBlocks />
-
 
       <section className="px-3 md:px-9 flex flex-wrap">
 
@@ -79,7 +83,7 @@ export default function Home() {
       </section>
       <hr />
 
-     <Footer />
+      <Footer />
     </main>
   )
 }

@@ -230,74 +230,6 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
-    "(app-client)/./app/marketing.jpg": {
-      "*": {
-        "id": "(sc_client)/./app/marketing.jpg",
-        "name": "*",
-        "chunks": [
-          "app/layout:static/chunks/app/layout.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./app/marketing.jpg",
-        "name": "",
-        "chunks": [
-          "app/layout:static/chunks/app/layout.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./app/marketing.jpg",
-        "name": "default",
-        "chunks": [
-          "app/layout:static/chunks/app/layout.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./node_modules/next/dist/client/script.js": {
-      "*": {
-        "id": "(sc_client)/./node_modules/next/dist/client/script.js",
-        "name": "*",
-        "chunks": [
-          "app/layout:static/chunks/app/layout.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./node_modules/next/dist/client/script.js",
-        "name": "",
-        "chunks": [
-          "app/layout:static/chunks/app/layout.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./node_modules/next/dist/client/script.js",
-        "name": "default",
-        "chunks": [
-          "app/layout:static/chunks/app/layout.js"
-        ],
-        "async": false
-      },
-      "handleClientScriptLoad": {
-        "id": "(sc_client)/./node_modules/next/dist/client/script.js",
-        "name": "handleClientScriptLoad",
-        "chunks": [
-          "app/layout:static/chunks/app/layout.js"
-        ],
-        "async": false
-      },
-      "initScriptLoader": {
-        "id": "(sc_client)/./node_modules/next/dist/client/script.js",
-        "name": "initScriptLoader",
-        "chunks": [
-          "app/layout:static/chunks/app/layout.js"
-        ],
-        "async": false
-      }
-    },
     "(app-client)/./public/images/avatar.jpg": {
       "*": {
         "id": "(sc_client)/./public/images/avatar.jpg",
@@ -480,6 +412,32 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
+    "(app-client)/./components/chatbot/index.jsx": {
+      "*": {
+        "id": "(sc_client)/./components/chatbot/index.jsx",
+        "name": "*",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./components/chatbot/index.jsx",
+        "name": "",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./components/chatbot/index.jsx",
+        "name": "default",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      }
+    },
     "(app-client)/./components/features.jsx": {
       "*": {
         "id": "(sc_client)/./components/features.jsx",
@@ -563,7 +521,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/link.js",
         "name": "*",
         "chunks": [
-          "app/page:static/chunks/app/page.js"
+          "app/pricing/page:static/chunks/app/pricing/page.js"
         ],
         "async": false
       },
@@ -571,7 +529,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/link.js",
         "name": "",
         "chunks": [
-          "app/page:static/chunks/app/page.js"
+          "app/pricing/page:static/chunks/app/pricing/page.js"
         ],
         "async": false
       },
@@ -579,7 +537,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/link.js",
         "name": "default",
         "chunks": [
-          "app/page:static/chunks/app/page.js"
+          "app/pricing/page:static/chunks/app/pricing/page.js"
         ],
         "async": false
       }
@@ -614,6 +572,100 @@ self.__RSC_MANIFEST={
         "name": "defaultHead",
         "chunks": [
           "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./app/marketing.jpg": {
+      "*": {
+        "id": "(sc_client)/./app/marketing.jpg",
+        "name": "*",
+        "chunks": [
+          "app/layout:static/chunks/app/layout.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./app/marketing.jpg",
+        "name": "",
+        "chunks": [
+          "app/layout:static/chunks/app/layout.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/marketing.jpg",
+        "name": "default",
+        "chunks": [
+          "app/layout:static/chunks/app/layout.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/script.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/script.js",
+        "name": "*",
+        "chunks": [
+          "app/layout:static/chunks/app/layout.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/script.js",
+        "name": "",
+        "chunks": [
+          "app/layout:static/chunks/app/layout.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/script.js",
+        "name": "default",
+        "chunks": [
+          "app/layout:static/chunks/app/layout.js"
+        ],
+        "async": false
+      },
+      "handleClientScriptLoad": {
+        "id": "(sc_client)/./node_modules/next/dist/client/script.js",
+        "name": "handleClientScriptLoad",
+        "chunks": [
+          "app/layout:static/chunks/app/layout.js"
+        ],
+        "async": false
+      },
+      "initScriptLoader": {
+        "id": "(sc_client)/./node_modules/next/dist/client/script.js",
+        "name": "initScriptLoader",
+        "chunks": [
+          "app/layout:static/chunks/app/layout.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./components/ui/header2.jsx": {
+      "*": {
+        "id": "(sc_client)/./components/ui/header2.jsx",
+        "name": "*",
+        "chunks": [
+          "app/pricing/page:static/chunks/app/pricing/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./components/ui/header2.jsx",
+        "name": "",
+        "chunks": [
+          "app/pricing/page:static/chunks/app/pricing/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./components/ui/header2.jsx",
+        "name": "default",
+        "chunks": [
+          "app/pricing/page:static/chunks/app/pricing/page.js"
         ],
         "async": false
       }
@@ -1298,124 +1350,6 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/Users/pedrospecter/Downloads/work/gotely/website/app/globals.scss#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/layout.css"
-      ]
-    },
-    "/Users/pedrospecter/Downloads/work/gotely/website/node_modules/next/font/google/target.css?{\"path\":\"app/layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/layout.css"
-      ]
-    },
-    "/Users/pedrospecter/Downloads/work/gotely/website/app/marketing.jpg": {
-      "id": "(app-client)/./app/marketing.jpg",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/pedrospecter/Downloads/work/gotely/website/app/marketing.jpg#": {
-      "id": "(app-client)/./app/marketing.jpg",
-      "name": "",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/pedrospecter/Downloads/work/gotely/website/app/marketing.jpg#default": {
-      "id": "(app-client)/./app/marketing.jpg",
-      "name": "default",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/pedrospecter/Downloads/work/gotely/website/node_modules/next/dist/client/script.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/script.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/pedrospecter/Downloads/work/gotely/website/node_modules/next/dist/esm/client/script.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/script.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/pedrospecter/Downloads/work/gotely/website/node_modules/next/dist/client/script.js#": {
-      "id": "(app-client)/./node_modules/next/dist/client/script.js",
-      "name": "",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/pedrospecter/Downloads/work/gotely/website/node_modules/next/dist/esm/client/script.js#": {
-      "id": "(app-client)/./node_modules/next/dist/client/script.js",
-      "name": "",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/pedrospecter/Downloads/work/gotely/website/node_modules/next/dist/client/script.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/client/script.js",
-      "name": "default",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/pedrospecter/Downloads/work/gotely/website/node_modules/next/dist/esm/client/script.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/client/script.js",
-      "name": "default",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/pedrospecter/Downloads/work/gotely/website/node_modules/next/dist/client/script.js#handleClientScriptLoad": {
-      "id": "(app-client)/./node_modules/next/dist/client/script.js",
-      "name": "handleClientScriptLoad",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/pedrospecter/Downloads/work/gotely/website/node_modules/next/dist/esm/client/script.js#handleClientScriptLoad": {
-      "id": "(app-client)/./node_modules/next/dist/client/script.js",
-      "name": "handleClientScriptLoad",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/pedrospecter/Downloads/work/gotely/website/node_modules/next/dist/client/script.js#initScriptLoader": {
-      "id": "(app-client)/./node_modules/next/dist/client/script.js",
-      "name": "initScriptLoader",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/pedrospecter/Downloads/work/gotely/website/node_modules/next/dist/esm/client/script.js#initScriptLoader": {
-      "id": "(app-client)/./node_modules/next/dist/client/script.js",
-      "name": "initScriptLoader",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
     "/Users/pedrospecter/Downloads/work/gotely/website/public/images/avatar.jpg": {
       "id": "(app-client)/./public/images/avatar.jpg",
       "name": "*",
@@ -1584,6 +1518,30 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
+    "/Users/pedrospecter/Downloads/work/gotely/website/components/chatbot/index.jsx": {
+      "id": "(app-client)/./components/chatbot/index.jsx",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/pedrospecter/Downloads/work/gotely/website/components/chatbot/index.jsx#": {
+      "id": "(app-client)/./components/chatbot/index.jsx",
+      "name": "",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/pedrospecter/Downloads/work/gotely/website/components/chatbot/index.jsx#default": {
+      "id": "(app-client)/./components/chatbot/index.jsx",
+      "name": "default",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
     "/Users/pedrospecter/Downloads/work/gotely/website/components/features.jsx": {
       "id": "(app-client)/./components/features.jsx",
       "name": "*",
@@ -1684,7 +1642,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
-        "app/page:static/chunks/app/page.js"
+        "app/pricing/page:static/chunks/app/pricing/page.js"
       ],
       "async": false
     },
@@ -1692,7 +1650,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
-        "app/page:static/chunks/app/page.js"
+        "app/pricing/page:static/chunks/app/pricing/page.js"
       ],
       "async": false
     },
@@ -1700,7 +1658,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "",
       "chunks": [
-        "app/page:static/chunks/app/page.js"
+        "app/pricing/page:static/chunks/app/pricing/page.js"
       ],
       "async": false
     },
@@ -1708,7 +1666,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "",
       "chunks": [
-        "app/page:static/chunks/app/page.js"
+        "app/pricing/page:static/chunks/app/pricing/page.js"
       ],
       "async": false
     },
@@ -1716,7 +1674,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "default",
       "chunks": [
-        "app/page:static/chunks/app/page.js"
+        "app/pricing/page:static/chunks/app/pricing/page.js"
       ],
       "async": false
     },
@@ -1724,7 +1682,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "default",
       "chunks": [
-        "app/page:static/chunks/app/page.js"
+        "app/pricing/page:static/chunks/app/pricing/page.js"
       ],
       "async": false
     },
@@ -1789,6 +1747,148 @@ self.__RSC_MANIFEST={
       "name": "defaultHead",
       "chunks": [
         "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/pedrospecter/Downloads/work/gotely/website/app/globals.scss#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/layout.css"
+      ]
+    },
+    "/Users/pedrospecter/Downloads/work/gotely/website/node_modules/next/font/google/target.css?{\"path\":\"app/layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/layout.css"
+      ]
+    },
+    "/Users/pedrospecter/Downloads/work/gotely/website/app/marketing.jpg": {
+      "id": "(app-client)/./app/marketing.jpg",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/pedrospecter/Downloads/work/gotely/website/app/marketing.jpg#": {
+      "id": "(app-client)/./app/marketing.jpg",
+      "name": "",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/pedrospecter/Downloads/work/gotely/website/app/marketing.jpg#default": {
+      "id": "(app-client)/./app/marketing.jpg",
+      "name": "default",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/pedrospecter/Downloads/work/gotely/website/node_modules/next/dist/client/script.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/script.js",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/pedrospecter/Downloads/work/gotely/website/node_modules/next/dist/esm/client/script.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/script.js",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/pedrospecter/Downloads/work/gotely/website/node_modules/next/dist/client/script.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/script.js",
+      "name": "",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/pedrospecter/Downloads/work/gotely/website/node_modules/next/dist/esm/client/script.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/script.js",
+      "name": "",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/pedrospecter/Downloads/work/gotely/website/node_modules/next/dist/client/script.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/script.js",
+      "name": "default",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/pedrospecter/Downloads/work/gotely/website/node_modules/next/dist/esm/client/script.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/script.js",
+      "name": "default",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/pedrospecter/Downloads/work/gotely/website/node_modules/next/dist/client/script.js#handleClientScriptLoad": {
+      "id": "(app-client)/./node_modules/next/dist/client/script.js",
+      "name": "handleClientScriptLoad",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/pedrospecter/Downloads/work/gotely/website/node_modules/next/dist/esm/client/script.js#handleClientScriptLoad": {
+      "id": "(app-client)/./node_modules/next/dist/client/script.js",
+      "name": "handleClientScriptLoad",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/pedrospecter/Downloads/work/gotely/website/node_modules/next/dist/client/script.js#initScriptLoader": {
+      "id": "(app-client)/./node_modules/next/dist/client/script.js",
+      "name": "initScriptLoader",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/pedrospecter/Downloads/work/gotely/website/node_modules/next/dist/esm/client/script.js#initScriptLoader": {
+      "id": "(app-client)/./node_modules/next/dist/client/script.js",
+      "name": "initScriptLoader",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/pedrospecter/Downloads/work/gotely/website/components/ui/header2.jsx": {
+      "id": "(app-client)/./components/ui/header2.jsx",
+      "name": "*",
+      "chunks": [
+        "app/pricing/page:static/chunks/app/pricing/page.js"
+      ],
+      "async": false
+    },
+    "/Users/pedrospecter/Downloads/work/gotely/website/components/ui/header2.jsx#": {
+      "id": "(app-client)/./components/ui/header2.jsx",
+      "name": "",
+      "chunks": [
+        "app/pricing/page:static/chunks/app/pricing/page.js"
+      ],
+      "async": false
+    },
+    "/Users/pedrospecter/Downloads/work/gotely/website/components/ui/header2.jsx#default": {
+      "id": "(app-client)/./components/ui/header2.jsx",
+      "name": "default",
+      "chunks": [
+        "app/pricing/page:static/chunks/app/pricing/page.js"
       ],
       "async": false
     }

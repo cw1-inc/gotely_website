@@ -62,6 +62,8 @@ export default function RootLayout({ children }) {
         t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
         y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
     })(window, document, "clarity", "script", "ffs8p8eefs");`}} />
+      <Script type="text/javascript" id="hs-script-loader" async defer src="//js-eu1.hs-scripts.com/139550232.js"></Script>
+
       <head>
         <link rel="icon" href="/favicon.ico" sizes="any" />
 
@@ -84,6 +86,7 @@ export default function RootLayout({ children }) {
         <meta property="og:image:alt" content="About Acme" />
       </head>
       <body className={inter.className}>
+
         {children}
       </body>
     </html>
