@@ -1,11 +1,11 @@
 {
-  "/apple-icon.png/route": "app/apple-icon.png/route.js",
-  "/icon.png/route": "app/icon.png/route.js",
   "/page": "app/page.js",
   "/robots.txt/route": "app/robots.txt/route.js",
   "/opengraph-image.jpg/route": "app/opengraph-image.jpg/route.js",
   "/sitemap.xml/route": "app/sitemap.xml/route.js",
+  "/icon.png/route": "app/icon.png/route.js",
   "/twitter-image.jpg/route": "app/twitter-image.jpg/route.js",
+  "/apple-icon.png/route": "app/apple-icon.png/route.js",
   "/partner/page": "app/partner/page.js",
   "/pricing/page": "app/pricing/page.js",
   "/partner/profile/page": "app/partner/profile/page.js"

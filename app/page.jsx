@@ -55,7 +55,7 @@ export default function Home() {
           Meet the project team.
         </h2>
         <p className="mx-auto mt-4 max-w-3xl text-center md:text-lg text-md text-gray-500 font-light">
-        We have been providing our services to numerous clients, but now we also aspire to grow our own consulting company. Recognizing the importance of technology in today's business landscape, we have made the strategic decision to combine finance, strategy, and technology in one platform. By leveraging these three pillars, we aim to offer comprehensive and innovative solutions to our clients.
+        We have been providing our services to numerous clients, but now we also aspire to grow our own consulting company. Recognizing the importance of technology in today&apos;s business landscape, we have made the strategic decision to combine finance, strategy, and technology in one platform. By leveraging these three pillars, we aim to offer comprehensive and innovative solutions to our clients.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-5 max-w-3xl gap-4 py-8">
