@@ -464,6 +464,32 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
+    "(app-client)/./components/features2.jsx": {
+      "*": {
+        "id": "(sc_client)/./components/features2.jsx",
+        "name": "*",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./components/features2.jsx",
+        "name": "",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./components/features2.jsx",
+        "name": "default",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      }
+    },
     "(app-client)/./components/ui/header.jsx": {
       "*": {
         "id": "(sc_client)/./components/ui/header.jsx",
@@ -521,7 +547,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/link.js",
         "name": "*",
         "chunks": [
-          "app/page:static/chunks/app/page.js"
+          "app/pricing/page:static/chunks/app/pricing/page.js"
         ],
         "async": false
       },
@@ -529,7 +555,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/link.js",
         "name": "",
         "chunks": [
-          "app/page:static/chunks/app/page.js"
+          "app/pricing/page:static/chunks/app/pricing/page.js"
         ],
         "async": false
       },
@@ -537,7 +563,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/link.js",
         "name": "default",
         "chunks": [
-          "app/page:static/chunks/app/page.js"
+          "app/pricing/page:static/chunks/app/pricing/page.js"
         ],
         "async": false
       }
@@ -640,6 +666,32 @@ self.__RSC_MANIFEST={
         "name": "initScriptLoader",
         "chunks": [
           "app/layout:static/chunks/app/layout.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./components/ui/header2.jsx": {
+      "*": {
+        "id": "(sc_client)/./components/ui/header2.jsx",
+        "name": "*",
+        "chunks": [
+          "app/pricing/page:static/chunks/app/pricing/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./components/ui/header2.jsx",
+        "name": "",
+        "chunks": [
+          "app/pricing/page:static/chunks/app/pricing/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./components/ui/header2.jsx",
+        "name": "default",
+        "chunks": [
+          "app/pricing/page:static/chunks/app/pricing/page.js"
         ],
         "async": false
       }
@@ -1540,6 +1592,30 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
+    "/Users/pedrospecter/Downloads/work/gotely/website/components/features2.jsx": {
+      "id": "(app-client)/./components/features2.jsx",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/pedrospecter/Downloads/work/gotely/website/components/features2.jsx#": {
+      "id": "(app-client)/./components/features2.jsx",
+      "name": "",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/pedrospecter/Downloads/work/gotely/website/components/features2.jsx#default": {
+      "id": "(app-client)/./components/features2.jsx",
+      "name": "default",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
     "/Users/pedrospecter/Downloads/work/gotely/website/components/ui/header.jsx": {
       "id": "(app-client)/./components/ui/header.jsx",
       "name": "*",
@@ -1616,7 +1692,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
-        "app/page:static/chunks/app/page.js"
+        "app/pricing/page:static/chunks/app/pricing/page.js"
       ],
       "async": false
     },
@@ -1624,7 +1700,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
-        "app/page:static/chunks/app/page.js"
+        "app/pricing/page:static/chunks/app/pricing/page.js"
       ],
       "async": false
     },
@@ -1632,7 +1708,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "",
       "chunks": [
-        "app/page:static/chunks/app/page.js"
+        "app/pricing/page:static/chunks/app/pricing/page.js"
       ],
       "async": false
     },
@@ -1640,7 +1716,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "",
       "chunks": [
-        "app/page:static/chunks/app/page.js"
+        "app/pricing/page:static/chunks/app/pricing/page.js"
       ],
       "async": false
     },
@@ -1648,7 +1724,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "default",
       "chunks": [
-        "app/page:static/chunks/app/page.js"
+        "app/pricing/page:static/chunks/app/pricing/page.js"
       ],
       "async": false
     },
@@ -1656,7 +1732,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "default",
       "chunks": [
-        "app/page:static/chunks/app/page.js"
+        "app/pricing/page:static/chunks/app/pricing/page.js"
       ],
       "async": false
     },
@@ -1839,6 +1915,30 @@ self.__RSC_MANIFEST={
       "name": "initScriptLoader",
       "chunks": [
         "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/pedrospecter/Downloads/work/gotely/website/components/ui/header2.jsx": {
+      "id": "(app-client)/./components/ui/header2.jsx",
+      "name": "*",
+      "chunks": [
+        "app/pricing/page:static/chunks/app/pricing/page.js"
+      ],
+      "async": false
+    },
+    "/Users/pedrospecter/Downloads/work/gotely/website/components/ui/header2.jsx#": {
+      "id": "(app-client)/./components/ui/header2.jsx",
+      "name": "",
+      "chunks": [
+        "app/pricing/page:static/chunks/app/pricing/page.js"
+      ],
+      "async": false
+    },
+    "/Users/pedrospecter/Downloads/work/gotely/website/components/ui/header2.jsx#default": {
+      "id": "(app-client)/./components/ui/header2.jsx",
+      "name": "default",
+      "chunks": [
+        "app/pricing/page:static/chunks/app/pricing/page.js"
       ],
       "async": false
     }

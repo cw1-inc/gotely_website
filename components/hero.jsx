@@ -15,25 +15,28 @@ export default function Hero() {
                 {/* <div class="trapezoid absolute hidden md:block  z-40" style={{ bottom: 0 }}></div> */}
 
 
-                <div className=" w-full" style={{ right: 0 }}>
+                {/* <div className=" w-full" style={{ right: 0 }}>
 
                     <Image className="absolute  hidden md:block z-40 right-0 top-28" src={FeaturesBg} alt="gotely" width={600} height={400} style={{ maxWidth: 600 }} />
 
-                </div>
+                </div> */}
 
                 <div className=" absolute w-full my-auto mx-auto px-4  z-50   px-3 md:px-16">
 
 
-                    <div className="pt-20 pb-12 md:pt-40 md:pb-20 ">
+                    <div className="pt-20 pb-12 md:pt-40 md:pb-20 flex flex-col items-center ">
 
 
-                        <div className="text-start my-auto">
-                            <h1 className="text-xs md:text-sm">AI powered Business Development Platform </h1>
-                            <h2 className="text-5xl md:hidden md:text-8xl py-3 md:py-5 font-light leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out">Grow your idea  <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400"> up to an IPO.</span></h2>
-                            <h2 className="hidden md:block text-4xl md:text-7xl py-3 md:py-5 font-light leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out">Grow your idea <br /> {"from 0"} up to   <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400">an IPO.</span></h2>
+                        <h1 className="text-xs md:text-sm border px-3 py-1 rounded-full border-black"> 🎉 AI powered Strategic planning Platform </h1>
+                        <div className="flex flex-col items-center my-auto">
 
-                            <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">CW1 introduces <b>Gotely</b> <br /> <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400"> A SaaS/VaaS/EaaS to guide businesses <br/> and entrepreneurs into success .</span></p>
-                            <div className="flex items-center" data-aos="zoom-y-out" data-aos-delay="300">
+                            <h2 className="text-3xl md:text-7xl py-3 md:py-5 font-bold leading-tighter text-center tracking-tighter " data-aos="zoom-y-out">A digital ecosystem <br /> focused on strategic planning</h2>
+
+                            <p className="text-sm md:text-xl text-gray-600 mb-8 text-center font-light" data-aos="zoom-y-out" data-aos-delay="150">Leveraging data and AI to reduce operations that usually take weeks to perform.</p>
+
+
+
+                            <div className="flex items-center justify-center text-center w-full" >
 
                                 <a href="https://app.gotely.com">
                                     <div className="text-white bg-slate-900 hover:bg-gray-800 px-6 py-2 rounded-md flex justify-between items-center w-36">

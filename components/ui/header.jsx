@@ -31,7 +31,7 @@ export default function Header() {
         
                 <div className="flex flex-row items-center justify-between h-16 md:h-20">
 
-                    <div className="flex flex-col items-start">
+                    <div className="flex flex-col items-start " style={{flex: 1}}>
 
                         {/* Site branding */}
                         <Link href="/" className=" flex items-start">
@@ -52,14 +52,14 @@ export default function Header() {
 
 
                     </div>
-                    <div className="flex ">
+                    {/* <div className="flex flex-1 justify-center" style={{flex: 1}}>
                         <a href="https://blog.gotely.com" className="hidden md:flex mx-4 text-sm font-medium cursor-pointer hover:underline">Knowlege Base</a>
                         <Link href="/pricing" className="hidden md:flex mx-4 text-sm font-medium cursor-pointer hover:underline">Pricing</Link>
                         <a href="https://outlook.office365.com/owa/calendar/CW11@nortb.com/bookings/s/6jgIL5PSM0yONHlJChN-kQ2" className="hidden md:flex mx-4 text-sm font-medium cursor-pointer hover:underline">Contact us</a>
-                    </div>
+                    </div> */}
 
                     {/* Desktop navigation */}
-                    <nav className="hidden md:flex">
+                    <nav className="hidden md:flex" style={{flex: 1}}>
                         {/* Desktop sign in links */}
                         <ul className="flex grow justify-end flex-wrap items-center">
                             <li>

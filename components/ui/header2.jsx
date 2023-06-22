@@ -52,11 +52,11 @@ export default function Header() {
 
 
                     </div>
-                    <div className="flex ">
+                    {/* <div className="flex ">
                         <a href="https://blog.gotely.com" className="hidden text-white md:flex mx-4 text-sm font-medium cursor-pointer hover:underline">Knowlege Base</a>
                         <span className="hidden text-white md:flex mx-4 text-sm font-medium cursor-pointer hover:underline">Pricing</span>
                         <a href="https://outlook.office365.com/owa/calendar/CW11@nortb.com/bookings/s/6jgIL5PSM0yONHlJChN-kQ2" className="hidden text-white md:flex mx-4 text-sm font-medium cursor-pointer hover:underline">Contact us</a>
-                    </div>
+                    </div> */}
 
                     {/* Desktop navigation */}
                     <nav className="hidden md:flex">

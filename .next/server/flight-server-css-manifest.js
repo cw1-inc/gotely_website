@@ -9,6 +9,10 @@ self.__RSC_CSS_MANIFEST={
     "/Users/pedrospecter/Downloads/work/gotely/website/app/page": [
       "/Users/pedrospecter/Downloads/work/gotely/website/app/globals.scss",
       "/Users/pedrospecter/Downloads/work/gotely/website/node_modules/next/font/google/target.css?{\"path\":\"app/layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}"
+    ],
+    "/Users/pedrospecter/Downloads/work/gotely/website/app/pricing/page": [
+      "/Users/pedrospecter/Downloads/work/gotely/website/app/globals.scss",
+      "/Users/pedrospecter/Downloads/work/gotely/website/node_modules/next/font/google/target.css?{\"path\":\"app/layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}"
     ]
   }
 }
