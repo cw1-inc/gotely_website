@@ -46,7 +46,7 @@ export default function NewFeatures2() {
             We have been there...
           </h2>
           <p className="mx-auto mt-4 max-w-3xl text-center md:text-lg text-md text-gray-500 font-light">
-            Some of our clients had great ideas, but ... <br /> due to their lack of organisation <br /> they ended loosing money month after month.
+            Some of our clients have had brilliant ideas ... <br />but unfortunately, due to their lack of organization <br />  they experienced consistent financial losses month after month.
           </p>
         </div>
 
