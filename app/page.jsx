@@ -37,7 +37,7 @@ export default function Home() {
 
       <div className="w-full flex-col items-center flex">
         <h2 className="text-center text-3xl md:text-5xl font-bold leading-8 tracking-tight text-gray-900 sm:text-4xl">
-          Don't be unprepared when looking for investors.
+          Don&apos;t be unprepared when looking for investors.
         </h2>
         <p className="mx-auto mt-4 max-w-3xl text-center md:text-lg text-md text-gray-500 font-light">
           We have access and represent multiple investors, but they want to see things properly and feel their money is secure. We help you preparing PnLs, forecasts, idea feasibiltiy and market penetration studies so that you have a bigger chance of being funded.

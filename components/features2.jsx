@@ -24,7 +24,7 @@ export default function Features2() {
           We honestly want to help you.
         </h2>
         <p className="mx-auto mt-4 max-w-3xl text-center md:text-lg text-md text-gray-500 font-light">
-          Gotely is designed to give you a place to start. It gives you materials to read about of "how to set up a business validation plan" and free access to tools related to a business framework and roadmap planner. Moreover you can play with an AI model forever free.
+          Gotely is designed to give you a place to start. It gives you materials to read about of &quot;how to set up a business validation plan&quot; and free access to tools related to a business framework and roadmap planner. Moreover you can play with an AI model forever free.
         </p>
       </div>
 
