@@ -21,19 +21,23 @@ export default function Home() {
   return (
     <main className="bg-white">
 
-
-
       <Header />
+
+      <div className="h-screen w-full flex flex-col justify-center items-center text-center">
+        <h1>We are discontinuing gotely. The first trial did not go as we wanted and as such as decided to retire the app. <br/> Thank you if you belong to the environment initally.</h1>
+      </div>
+
+      {/* 
       <Hero />
       <div className="px-3 md:px-40 flex justify-center">
         <img src="/images/aaaa.png" alt="cw1 gotely strategic tools and insights" className="rounded-md md:rounded-2xl md:w-full w-full " />
       </div>
-      {/* <Grizzly /> */}
+      
       <NewFeatures2 />
-      {/* <NewFeatures /> */}
+      
 
       <Features2 />
-      {/* <FeaturesBlocks /> */}
+      
 
       <div className="w-full flex-col items-center flex">
         <h2 className="text-center text-3xl md:text-5xl font-bold leading-8 tracking-tight text-gray-900 sm:text-4xl">
@@ -96,7 +100,7 @@ export default function Home() {
 
       <hr />
 
-      <Footer />
+      <Footer /> */}
     </main>
   )
 }

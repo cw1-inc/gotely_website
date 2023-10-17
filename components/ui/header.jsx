@@ -59,8 +59,8 @@ export default function Header() {
                     </div> */}
 
                     {/* Desktop navigation */}
-                    <nav className="hidden md:flex" style={{flex: 1}}>
-                        {/* Desktop sign in links */}
+                    {/* <nav className="hidden md:flex" style={{flex: 1}}>
+                        
                         <ul className="flex grow justify-end flex-wrap items-center">
                             <li>
                                 <a href="https://app.gotely.com" className="flex items-center md:px-4 px-3 md:py-1 py-1 text-white bg-zinc-700 hover:bg-zinc-900 border border-zinc-800 ml-3 cursor-pointer rounded-full ">
@@ -73,9 +73,9 @@ export default function Header() {
                            
                         </ul>
 
-                    </nav>
+                    </nav> */}
 
-                    <div className="relative pe-4 pointer md:hidden">
+                    {/* <div className="relative pe-4 pointer md:hidden">
                         <svg width="18" height="10" viewBox="0 0 18 10" fill="none" xmlns="http://www.w3.org/2000/svg" onClick={() => setIsActive(true)}>
                             <path d="M0.75 0.5H17.25" stroke="#242424" strokeMiterlimit="10" strokeLinecap="round" />
                             <path d="M0.75 5H17.25" stroke="#242424" strokeMiterlimit="10" strokeLinecap="round" />
@@ -110,7 +110,7 @@ export default function Header() {
                             </div>
                         }
 
-                    </div>
+                    </div> */}
 
         
 
